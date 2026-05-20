@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bankingapp.utils.BusinessRulesTest" tests="38" skipped="0" failures="0" errors="0" timestamp="2026-05-19T10:03:00" hostname="VSC" time="0.042">
+  <properties/>
+  <testcase name="withdraw_accountNull" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.01"/>
+  <testcase name="login_lockedAndInsideWindow" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.002"/>
+  <testcase name="transfer_savingMonthlyLimitReached" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.003"/>
+  <testcase name="transfer_srcNull" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="transfer_invalidAmount" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="transfer_success" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="monthOf_returnsHumanMonth" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="login_lockedButWindowExpired_autoUnlock_thenWrongPassword" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="transfer_savingBalanceFloor" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="transfer_sameAccount" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="withdraw_savingMonthlyLimitReached" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="transfer_insufficient" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="withdraw_success_saving_atFloor" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="withdraw_invalidAmount_zero" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="otp_attemptsExhaustedThenCorrectStillBlocked" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.003"/>
+  <testcase name="login_success" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="login_disabled" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="otp_nullChallenge" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="transfer_srcInactive" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="deposit_inactive" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.002"/>
+  <testcase name="transfer_dailyLimit_overBy1_fails" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="withdraw_inactive" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="transfer_dstInactive" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="withdraw_success_current" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="deposit_accountNull" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="transfer_dailyLimit_atBoundary_passes" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="login_wrongPassword" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="otp_wrongCounts" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="withdraw_savingBalanceFloorViolated" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="transfer_notOwner" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="otp_success" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="login_userNotFound" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="deposit_success" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="otp_expired" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="deposit_invalidAmount" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="withdraw_savingCountersResetOnNewMonth" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.001"/>
+  <testcase name="withdraw_insufficientFunds" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <testcase name="transfer_dstNull" classname="com.example.bankingapp.utils.BusinessRulesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

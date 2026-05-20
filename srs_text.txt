@@ -1,0 +1,1246 @@
+
+
+
+
+
+BANK99 BANKING PROJECT
+
+
+Software Requirements Specification
+(Đặc tả Yêu cầu Phần mềm)
+
+
+Phiên bản 2.0
+16/05/2026
+
+
+
+
+
+Prepared for
+Bank99 Corp.
+
+Revision History
+Date
+Description
+Author
+Comments
+17/04/2026
+Version 1.0
+Nhóm dự án
+Initial Draft
+16/05/2026
+Version 2.0
+Nhóm dự án
+Bổ sung luồng xử lý, OTP, phí GD, output, sinh mã, ChiNhanh
+
+
+Document Approval
+The following Software Requirements Specification has been accepted and approved by the following:
+Printed Name
+Title
+Date
+_______________
+
+___/___/2026
+_______________
+
+___/___/2026
+_______________
+
+___/___/2026
+
+TABLE OF CONTENTS
+
+1. Introduction
+   1.1 Purpose
+   1.2 Scope
+   1.3 Definitions, Acronyms, and Abbreviations
+   1.4 References
+2. Specific Requirements
+   2.1 External Interface Requirements
+3. Detailed Requirements
+   3.1 Front End Details
+   3.2 Output / Display Specifications 
+   3.3 Process Flows 
+   3.4 Auto-Generated Codes 
+   3.5 OTP Mechanism 
+   3.6 Transaction Fees 
+   3.7 Account Type Differentiation 
+   3.8 Editable vs Read-only Fields 
+   3.9 Technical Requirements (Validation)
+   3.10 Functional Validations
+   3.11 Classes / Objects
+   3.12 Non-Functional Requirements
+   3.13 Inverse Requirements
+   3.14 Design Constraints
+   3.15 Logical Database Requirements
+   3.16 Other Requirements
+4. Analysis Models
+5. Change Management Process
+A. Appendices – Verification Checklist
+
+1. Introduction
+Dự án Bank99 Banking nhằm cung cấp dịch vụ ngân hàng trực tuyến cho khách hàng. Hệ thống cho phép Nhân viên giao dịch (Teller) quản lý hồ sơ khách hàng, tài khoản và thực hiện giao dịch tại quầy, đồng thời cho phép Khách hàng (Customer) tra cứu thông tin và chuyển khoản trực tuyến.
+1.1 Purpose
+Mục đích của tài liệu này là mô tả chi tiết các yêu cầu cho hệ thống ngân hàng trực tuyến Bank99. Tài liệu sẽ được sử dụng bởi tất cả các bên liên quan bao gồm đội phát triển (Developer), kiểm thử (Tester) và quản lý dự án.
+1.2 Scope
+Phạm vi dự án giới hạn trong việc kiểm thử các tính năng được mô tả trong tài liệu này.
+Kiểm thử phi chức năng (stress, performance) nằm ngoài phạm vi.
+Kiểm thử tự động hóa nằm ngoài phạm vi.
+Kiểm thử chức năng & giao diện bên ngoài nằm trong phạm vi.
+Tương thích: Chrome 90+, Firefox 88+, Edge 90+.
+Không bao gồm: tín dụng (cho vay), thanh toán hóa đơn, ứng dụng di động.
+1.3 Definitions, Acronyms, and Abbreviations
+Abbreviation
+Word
+T
+Teller – Nhân viên giao dịch tại chi nhánh
+C
+Customer – Khách hàng sử dụng hệ thống trực tuyến
+DBMS
+Database Management System – Hệ quản trị CSDL (SQL Server)
+OTP
+One-Time Password – Mật khẩu dùng một lần
+KYC
+Know Your Customer – Quy trình định danh khách hàng
+RPO
+Recovery Point Objective – Mức dữ liệu tối đa chấp nhận mất
+RTO
+Recovery Time Objective – Thời gian tối đa phục hồi hệ thống
+TLS
+Transport Layer Security – Giao thức mã hóa truyền thông
+ACID
+Atomicity, Consistency, Isolation, Durability – Tính chất giao dịch CSDL
+1.4 References
+STT
+Tài liệu
+Mã số
+Ghi chú
+1
+Biên bản khảo sát nghiệp vụ Bank99
+BB-KS-001
+Nội bộ
+2
+IEEE 830-1998: Recommended Practice for SRS
+IEEE 830
+Chuẩn SRS
+3
+Thông tư NHNN về giao dịch điện tử
+TT-35/2016
+Quy định
+4
+OWASP Top 10 – Web Application Security
+OWASP 2021
+Bảo mật
+
+2. Specific Requirements
+Hệ thống Bank99 có 2 vai trò: Teller (Nhân viên giao dịch) và Customer (Khách hàng).
+Các tính năng / module được phân quyền như sau:
+Teller
+Customer
+New Customer (Thêm KH)
+Balance Enquiry (Vấn tin số dư)
+Edit Customer (Sửa KH)
+Fund Transfer (Chuyển khoản)
+Delete Customer (Xóa KH)
+Mini Statement (Sao kê rút gọn)
+New Account (Mở TK)
+Customized Statement (Sao kê tùy chỉnh)
+Edit Account (Sửa TK)
+Change Password (Đổi mật khẩu)
+Delete Account (Đóng TK)
+Login & Logout
+Deposit (Nộp tiền)
+
+Withdrawal (Rút tiền)
+
+Fund Transfer (Chuyển khoản)
+
+Change Password / Balance Enquiry / Mini Statement / Customized Statement / Login & Logout
+
+
+Description of the modules
+Module Name
+Roles
+Description
+Balance Enquiry
+(Vấn tin số dư)
+Teller
+Customer
+Customer: Chỉ xem số dư TK của mình.
+Teller: Xem số dư tất cả KH thuộc chi nhánh quản lý.
+Fund Transfer
+(Chuyển khoản)
+Teller
+Customer
+Customer: Chỉ chuyển từ TK "của mình". Bắt buộc OTP.
+Teller: Chuyển từ bất kỳ TK nào thuộc chi nhánh.
+Mini Statement
+(Sao kê rút gọn)
+Teller
+Customer
+Hiển thị 5 giao dịch gần nhất.
+Customer: Chỉ TK của mình. Teller: Bất kỳ TK thuộc chi nhánh.
+Customized Statement
+(Sao kê tùy chỉnh)
+Teller
+Customer
+Lọc theo ngày, giá trị giao dịch.
+Customer: Chỉ TK của mình. Teller: Bất kỳ TK thuộc chi nhánh.
+Change Password
+(Đổi mật khẩu)
+Teller
+Customer
+Mỗi vai trò chỉ đổi MK của chính mình.
+Teller không đổi được MK của Customer.
+New Customer
+(Thêm KH)
+Teller
+Teller thêm KH mới. Yêu cầu KYC: CMND/CCCD, thông tin liên hệ, gói dịch vụ, hạn mức, phương thức xác thực.
+Edit Customer
+(Sửa KH)
+Teller
+Chỉ sửa: Địa chỉ, Email, SĐT, Hạn mức, Gói DV, PT xác thực.
+KHÔNG sửa: Tên, Giới tính, Ngày sinh, CMND/CCCD.
+New Account
+(Mở TK)
+Teller
+Mở TK cho KH đã tồn tại. 2 loại: Tiết kiệm / Vãng lai.
+Tiền nộp đầu tối thiểu 500 VNĐ.
+Edit Account
+(Sửa TK)
+Teller
+Sửa loại tài khoản cho TK đã tồn tại.
+Delete Account
+(Đóng TK)
+Teller
+Chỉ đóng khi số dư = 0.
+Delete Customer
+(Xóa KH)
+Teller
+Chỉ xóa khi KH không còn TK hoạt động.
+Deposit (Nộp tiền)
+Teller
+Nộp tiền mặt vào TK tại quầy. Ghi mã Teller để hậu kiểm.
+Withdrawal (Rút tiền)
+Teller
+Rút tiền từ TK tại quầy. Kiểm tra số dư. Ghi mã Teller.
+2.1 External Interface Requirements
+2.1.1 User Interfaces
+Hệ thống là trang web truy cập qua trình duyệt. Bảng điều khiển dựa trên vai trò: giao diện Quản trị cho Teller và giao diện E-Banking cho Customer.
+2.1.2 Hardware Interfaces
+Thiết bị client tiêu chuẩn (PC, laptop) kết nối qua Internet/LAN.
+2.1.3 Software Interfaces
+SQL Server 2019+ cho lưu trữ dữ liệu. Dịch vụ SMS/OTP bên thứ ba cho xác thực giao dịch.
+2.1.4 Communications Interfaces
+Client-Server qua HTTPS. Mã hóa TLS 1.2+.
+3. Detailed Requirements
+3.1 Front End Details
+Danh sách trường dữ liệu input theo từng module:
+Fund Transfer
+Tài khoản nguồn (Payers account no)
+Tài khoản đích (Payees account no)
+Số tiền (Amount)
+Nội dung (Description)
+Mã xác thực OTP
+Submit / Reset
+Change Password
+Old Password
+New Password
+Confirm Password
+Submit / Reset
+Balance Enquiry
+Account No
+Submit / Reset
+Mini Statement
+Account No
+Submit / Reset
+Customized Statement
+Account No
+From Date
+To Date
+Amount Lower Limit
+Number Of Transaction
+Submit / Reset
+New Customer
+Customer Name
+Gender
+Date of Birth
+CMND/CCCD
+Ngày cấp
+Nơi cấp
+Address
+Địa chỉ liên lạc
+City
+State
+PIN (6 số)
+Telephone Number (SĐT nhận OTP)
+Email
+Mã số thuế (nếu DN)
+Gói dịch vụ (Tài chính / Phi tài chính)
+Hạn mức giao dịch/ngày
+Phương thức xác thực (Smart OTP / SMS OTP)
+Submit / Reset
+New Account
+Customer Id
+Account Type (Tiết kiệm / Vãng lai)
+Initial deposit (≥ 500 VNĐ)
+Submit / Reset
+Deposit
+Account Number
+Amount Deposit
+Description
+Submit / Reset
+Withdrawal
+Account Number
+Amount
+Description
+Submit / Reset
+Delete Customer
+Customer Id
+Submit / Reset
+Edit Account
+Account Number → Submit → Form: Customer Id, Account Type (dropdown), Balance
+Submit / Reset
+Delete Account
+Account Number
+Submit / Reset
+Edit Customer
+Customer Id → Submit → Form: Name (readonly), Gender (readonly), DOB (readonly), Address, Địa chỉ liên lạc, City, State, PIN, Telephone, Email, Hạn mức, Gói DV, PT xác thực
+Submit / Reset
+3.2 Output / Display Specifications 
+Mô tả dữ liệu hệ thống trả về sau khi xử lý thành công mỗi module:
+Module
+Output hiển thị khi thành công
+New Customer
+Thông báo "Tạo khách hàng thành công". Hiển thị: Mã KH (MaKH), Username tạm, Mật khẩu tạm (hiển thị 1 lần duy nhất).
+New Account
+Thông báo "Mở tài khoản thành công". Hiển thị: Số tài khoản mới, Loại TK, Số dư ban đầu, Ngày mở.
+Fund Transfer
+Thông báo "Chuyển khoản thành công". Hiển thị: Mã GD, TK nguồn, TK đích, Số tiền, Phí, Số dư còn lại TK nguồn, Thời gian GD.
+Deposit
+Thông báo "Nộp tiền thành công". Hiển thị: Mã GD, Số TK, Số tiền nộp, Số dư mới, Mã Teller, Thời gian.
+Withdrawal
+Thông báo "Rút tiền thành công". Hiển thị: Mã GD, Số TK, Số tiền rút, Số dư còn lại, Mã Teller, Thời gian.
+Balance Enquiry
+Bảng: Số TK | Loại TK | Số dư | Trạng thái. Customer: chỉ TK mình. Teller: tất cả TK của KH được chọn.
+Mini Statement
+Bảng 5 dòng: Mã GD | Ngày | Loại GD (Nộp/Rút/CK) | Số tiền | Số dư sau GD.
+Customized Statement
+Bảng lọc: Mã GD | Ngày | Loại GD | Nội dung | Số tiền | Số dư sau GD. Tổng số GD tìm thấy hiển thị ở cuối.
+Change Password
+Thông báo "Đổi mật khẩu thành công. Vui lòng đăng nhập lại." → Chuyển hướng về trang Login.
+Delete Account
+Thông báo "Đóng tài khoản [Số TK] thành công."
+Delete Customer
+Thông báo "Xóa khách hàng [MaKH] thành công."
+Edit Customer
+Thông báo "Cập nhật thông tin thành công." Hiển thị lại thông tin KH đã cập nhật.
+Edit Account
+Thông báo "Cập nhật tài khoản thành công." Hiển thị lại thông tin TK.
+3.3 Process Flows 
+Luồng xử lý step-by-step cho các module phức tạp:
+3.3.1 Fund Transfer (Chuyển khoản) – Customer
+Bước
+Mô tả
+1
+Customer chọn "Chuyển khoản" từ menu.
+2
+Hệ thống hiển thị danh sách TK nguồn của Customer (dropdown).
+3
+Customer chọn TK nguồn, nhập Số TK đích, Số tiền, Nội dung.
+4
+Hệ thống kiểm tra: TK đích tồn tại? (F9) → TK nguồn ≠ TK đích? (F10)
+5
+Hệ thống kiểm tra: Số dư ≥ (Số tiền + Phí)? (F11) → Tổng GD ngày ≤ Hạn mức? (F13)
+6
+Hệ thống gửi OTP đến SĐT/SmartOTP đã đăng ký. Hiển thị form nhập OTP.
+7
+Customer nhập OTP. Hệ thống xác thực (xem 3.5 OTP Mechanism).
+8
+Thực hiện giao dịch nguyên tử: BEGIN TRAN → Trừ nguồn → Cộng đích → Ghi GiaoDich → COMMIT.
+9
+Nếu lỗi ở bước 8: ROLLBACK toàn bộ, hiển thị "Giao dịch thất bại. Vui lòng thử lại."
+10
+Thành công: Hiển thị output theo 3.2.
+3.3.2 Fund Transfer (Chuyển khoản) – Teller
+Bước
+Mô tả
+1
+Teller chọn "Chuyển khoản" từ menu.
+2
+Nhập Số TK nguồn, Số TK đích, Số tiền, Nội dung.
+3
+Hệ thống kiểm tra: TK nguồn thuộc chi nhánh Teller? (F8) → TK đích tồn tại? (F5)
+4
+Kiểm tra: TK nguồn ≠ TK đích? (F6) → Số dư đủ? (F7)
+5
+Thực hiện giao dịch nguyên tử (như bước 8–9 Customer). KHÔNG yêu cầu OTP.
+6
+Ghi nhận NguoiThucHien = Teller UserID. Hiển thị output theo 3.2.
+3.3.3 Deposit (Nộp tiền) – Teller
+Bước
+Mô tả
+1
+Teller chọn "Nộp tiền". Nhập Số TK, Số tiền, Nội dung.
+2
+Hệ thống kiểm tra: TK tồn tại + thuộc chi nhánh Teller? (F18, F19)
+3
+Kiểm tra: TK đang Active? Số tiền > 0 và hợp lệ? (T54–T60)
+4
+Thực hiện: BEGIN TRAN → Cộng tiền vào TK → Ghi GiaoDich (LoaiGD=Nop, NguoiThucHien=Teller) → COMMIT.
+5
+Hiển thị output theo 3.2.
+3.3.4 Withdrawal (Rút tiền) – Teller
+Bước
+Mô tả
+1
+Teller chọn "Rút tiền". Nhập Số TK, Số tiền, Nội dung.
+2
+Hệ thống kiểm tra: TK tồn tại + thuộc chi nhánh Teller? (F15, F17)
+3
+Kiểm tra: Số dư ≥ Số tiền rút? (F16)
+4
+Thực hiện: BEGIN TRAN → Trừ tiền TK → Ghi GiaoDich (LoaiGD=Rut, NguoiThucHien=Teller) → COMMIT.
+5
+Hiển thị output theo 3.2.
+3.3.5 Login – Teller & Customer
+Bước
+Mô tả
+1
+Người dùng nhập Username, Password.
+2
+Hệ thống kiểm tra: Tài khoản tồn tại? → Status = Active? (nếu Locked, kiểm tra LockedUntil)
+3
+So sánh password hash (bcrypt). Đúng → reset FailedLoginCount = 0, tạo session, redirect theo Role.
+4
+Sai → FailedLoginCount += 1. Nếu FailedLoginCount ≥ 3 → Status = Locked, LockedUntil = NOW + 15 phút. (F50)
+5
+Session timeout = 5 phút không hoạt động → auto logout. (F51)
+3.4 Auto-Generated Codes 
+Quy tắc sinh mã tự động cho các trường do hệ thống tạo:
+Trường
+Format
+Ví dụ / Quy tắc
+MaKH (Customer ID)
+Số nguyên tự tăng
+Bắt đầu từ 10001. VD: 10001, 10002...
+SoTaiKhoan
+Prefix + 10 số ngẫu nhiên
+TK: "99" + 10 chữ số. VD: 990000012345. Prefix "99" = Bank99.
+MaGD (Transaction ID)
+BIGINT tự tăng
+Bắt đầu từ 1. VD: 1, 2, 3...
+Username (Customer)
+"C" + MaKH
+VD: C10001, C10002. Teller: "T" + MaNV (VD: T001).
+Mật khẩu tạm
+Random 10 ký tự
+Gồm chữ hoa + chữ thường + số + ký tự đặc biệt. Hiển thị 1 lần khi tạo KH. Yêu cầu đổi MK lần đăng nhập đầu tiên.
+MaNV (Teller ID)
+Số nguyên tự tăng
+Bắt đầu từ 001. VD: 001, 002...
+MaChiNhanh
+"CN" + 3 số
+VD: CN001 (Chi nhánh Quận 1), CN002 (Chi nhánh Quận 3).
+3.5 OTP Mechanism 
+Chi tiết cơ chế xác thực OTP cho giao dịch:
+Thuộc tính
+Giá trị
+Áp dụng cho giao dịch
+Chuyển khoản (Customer). Teller KHÔNG cần OTP (đã xác thực tại quầy).
+Độ dài OTP
+6 chữ số
+Thời gian hiệu lực
+120 giây (2 phút) kể từ khi gửi
+Số lần nhập sai tối đa
+3 lần. Sai lần 3 → hủy giao dịch hiện tại, yêu cầu tạo GD mới.
+Gửi lại OTP
+Cho phép tối đa 3 lần gửi lại / giao dịch. Mỗi lần gửi lại, OTP cũ vô hiệu.
+Phương thức gửi
+Theo cấu hình của KH: SMS OTP (gửi qua SMS đến SĐT đăng ký) hoặc Smart OTP (sinh trong app).
+Lưu trữ
+OTP được hash trước khi lưu tạm. Xóa ngay sau khi xác thực hoặc hết hạn.
+3.6 Transaction Fees 
+Biểu phí áp dụng cho phiên bản 1.0:
+Loại giao dịch
+Phí
+Ghi chú
+Nộp tiền (Deposit)
+0 VNĐ (Miễn phí)
+
+Rút tiền (Withdrawal)
+0 VNĐ (Miễn phí)
+
+Chuyển khoản nội bộ (cùng Bank99)
+0 VNĐ (Miễn phí)
+Phiên bản này chỉ hỗ trợ CK nội bộ
+Mở tài khoản
+0 VNĐ (Miễn phí)
+Tiền nộp đầu ≥ 500 VNĐ (không phải phí)
+Lưu ý: Hệ thống thiết kế sẵn trường "Phí" trong logic chuyển khoản (Số dư ≥ Số tiền + Phí) để hỗ trợ bổ sung phí trong phiên bản tương lai mà không cần thay đổi luồng xử lý. Phí hiện tại = 0.
+3.7 Account Type Differentiation 
+So sánh nghiệp vụ giữa hai loại tài khoản:
+Tiêu chí
+Tiết kiệm (Saving)
+Vãng lai (Current)
+Mục đích
+Gửi tiết kiệm, hạn chế giao dịch
+Thanh toán thường xuyên
+Giới hạn rút/tháng
+Tối đa 5 lần rút/tháng
+Không giới hạn
+Giới hạn chuyển khoản/tháng
+Tối đa 10 lần/tháng
+Không giới hạn
+Tiền nộp đầu tối thiểu
+500 VNĐ
+500 VNĐ
+Số dư tối thiểu duy trì
+500 VNĐ (không được rút dưới mức này)
+0 VNĐ
+Lãi suất
+Không tính lãi trong phiên bản này
+Không tính lãi trong phiên bản này
+Validation bổ sung: Khi Customer/Teller thực hiện rút tiền hoặc chuyển khoản từ TK Tiết kiệm, hệ thống kiểm tra: (1) Số lần rút/CK trong tháng chưa vượt giới hạn, (2) Số dư sau GD ≥ 500 VNĐ.
+3.8 Editable vs Read-only Fields 
+Danh sách tường minh trường nào Teller được phép sửa khi Edit Customer / Edit Account:
+Edit Customer
+Trường
+Trạng thái
+Lý do
+HoTen (Tên)
+Read-only
+Trường định danh cốt lõi
+GioiTinh
+Read-only
+Trường định danh cốt lõi
+NgaySinh
+Read-only
+Trường định danh cốt lõi
+CMND_CCCD
+Read-only
+Trường định danh pháp lý
+NgayCap
+Read-only
+Gắn với CMND/CCCD
+NoiCap
+Read-only
+Gắn với CMND/CCCD
+DiaChi
+Editable
+KH có thể thay đổi địa chỉ
+DiaChiLienLac
+Editable
+
+City
+Editable
+
+State
+Editable
+
+SDT
+Editable
+Cần xác thực OTP mới sau khi đổi
+Email
+Editable
+Kiểm tra trùng lặp (F23)
+PIN
+Editable
+
+MaSoThue
+Read-only
+Liên quan pháp lý
+HanMucNgay
+Editable
+Teller điều chỉnh theo yêu cầu KH
+GoiDichVu
+Editable
+Nâng/hạ gói dịch vụ
+PhuongThucXacThuc
+Editable
+Đổi Smart OTP ↔ SMS OTP
+Edit Account
+Trường
+Trạng thái
+Lý do
+SoTaiKhoan
+Read-only
+Mã định danh TK
+MaKH
+Read-only
+Chủ sở hữu không đổi
+LoaiTK
+Editable
+Cho phép đổi Tiết kiệm ↔ Vãng lai
+SoDu
+Read-only
+Chỉ thay đổi qua giao dịch
+NgayMo
+Read-only
+Dữ liệu lịch sử
+TrangThai
+Read-only
+Chỉ thay đổi qua Delete Account
+
+3.9 Technical Requirements (Validation)
+New Account
+T1   Customer Id – Bắt buộc
+T2   Customer Id – Không cho phép ký tự đặc biệt
+T3   Customer Id – Không cho phép chữ cái
+T3.1   Customer Id – Ký tự đầu không được là khoảng trắng
+New Customer
+T4   Customer Name – Không cho phép số
+T5   Customer Name – Không cho phép ký tự đặc biệt
+T6   Customer Name – Không được để trống
+T7   Customer Name – Ký tự đầu không được là khoảng trắng
+T8   Address – Không được để trống
+T9   Address – Ký tự đầu không được là khoảng trắng
+T10   Address – Không cho phép ký tự đặc biệt
+T11   City – Không cho phép ký tự đặc biệt
+T12   City – Không được để trống
+T13   City – Không cho phép số
+T14   City – Ký tự đầu không được là khoảng trắng
+T15   State – Không cho phép số
+T16   State – Không được để trống
+T17   State – Không cho phép ký tự đặc biệt
+T17.1   State – Ký tự đầu không được là khoảng trắng
+T18   PIN – Không cho phép chữ cái
+T19   PIN – Không được để trống
+T20   PIN – Không cho phép ký tự đặc biệt
+T21   PIN – Phải đúng 6 chữ số
+T22   PIN – Ký tự đầu không được là khoảng trắng
+T23   Telephone – Không được để trống
+T24   Telephone – Không cho phép ký tự đặc biệt
+T25   Telephone – Không cho phép chữ cái
+T26   Telephone – Ký tự đầu không được là khoảng trắng
+T27   Email – Không được để trống
+T28   Email – Định dạng không hợp lệ
+T29   Email – Ký tự đầu không được là khoảng trắng
+T30   CMND/CCCD – Bắt buộc, 9 hoặc 12 số, không trùng
+T31   CMND/CCCD – Không cho phép chữ cái và ký tự đặc biệt
+T32   Ngày cấp – Trước ngày hiện tại, CMND không quá 15 năm
+T33   Ngày sinh – DD/MM/YYYY, không phải ngày tương lai
+T34   Mã số thuế – 10 hoặc 13 số (nếu có)
+T35   Hạn mức ngày – Số dương, ≤ trần (VD: 3 tỷ VNĐ)
+Balance Enquiry
+T36   Account No – Không được để trống
+T37   Không cho phép ký tự đặc biệt
+T38   Không cho phép chữ cái
+Customized Statement
+T39   Account No – Không được để trống
+T40   Không cho phép chữ cái
+T41   Không cho phép ký tự đặc biệt
+T42   Amount Lower Limit – Không cho phép ký tự đặc biệt
+T43   Bắt buộc nhập
+T44   Không cho phép chữ cái
+T45   Number of Transaction – Không cho phép ký tự đặc biệt
+T46   Không được để trống
+T47   Không cho phép chữ cái
+Delete Account
+T48   Account No – Không được để trống
+T49   Không cho phép ký tự đặc biệt
+T50   Không cho phép chữ cái
+Delete Customer
+T51   Customer Id – Bắt buộc
+T52   Không cho phép ký tự đặc biệt
+T53   Không cho phép chữ cái
+T53.1   Ký tự đầu không được là khoảng trắng
+Deposit
+T54   Account No – Không được để trống
+T55   Không cho phép ký tự đặc biệt
+T56   Không cho phép chữ cái
+T57   Amount – Không được để trống
+T58   Không cho phép ký tự đặc biệt
+T59   Không cho phép chữ cái
+T60   Description – Không được để trống
+Edit Account
+T61   Account No – Không được để trống
+T62   Không cho phép ký tự đặc biệt
+T63   Không cho phép chữ cái
+Edit Customer Form
+T64   Customer Id – Bắt buộc
+T65   Không cho phép ký tự đặc biệt
+T66   Không cho phép chữ cái
+T66.1   Ký tự đầu không được là khoảng trắng
+Edit Customer (fields)
+T67   Address – Không được để trống
+T68   Ký tự đầu không được là khoảng trắng
+T69   Không cho phép ký tự đặc biệt
+T70   City – Không cho phép ký tự đặc biệt
+T71   Không được để trống
+T72   Không cho phép số
+T73   Ký tự đầu không được là khoảng trắng
+T74   State – Không cho phép số
+T75   Không được để trống
+T76   Không cho phép ký tự đặc biệt
+T76.1   Ký tự đầu không được là khoảng trắng
+T77   PIN – Không cho phép chữ cái
+T78   Không được để trống
+T79   Không cho phép ký tự đặc biệt
+T80   Phải đúng 6 chữ số
+T81   Ký tự đầu không được là khoảng trắng
+T82   Telephone – Không được để trống
+T83   Không cho phép ký tự đặc biệt
+T84   Không cho phép chữ cái
+T85   Ký tự đầu không được là khoảng trắng
+T86   Email – Không được để trống
+T87   Định dạng không hợp lệ
+T88   Ký tự đầu không được là khoảng trắng
+Fund Transfer
+T89   Payers Account No – Không được để trống
+T90   Không cho phép ký tự đặc biệt
+T91   Không cho phép chữ cái
+T92   Payees Account No – Không được để trống
+T93   Không cho phép ký tự đặc biệt
+T94   Không cho phép chữ cái
+T95   Amount – Không được để trống
+T96   Không cho phép chữ cái
+T97   Không cho phép ký tự đặc biệt
+T98   Description – Không được để trống
+Login
+T99   User-ID – Không được để trống
+T100   Password – Không được để trống
+Mini Statement
+T101   Account No – Không được để trống
+T102   Không cho phép ký tự đặc biệt
+T103   Không cho phép chữ cái
+Change Password
+T104   Old Password – Không được để trống
+T105   New Password – Không được để trống
+T106   Phải có ít nhất 1 số
+T107   Phải có ít nhất 1 ký tự đặc biệt
+T108   Tối thiểu 8 ký tự
+T109   Confirm Password – Không được để trống
+T110   Mật khẩu không khớp
+Withdrawal
+T111   Account No – Không được để trống
+T112   Không cho phép ký tự đặc biệt
+T113   Không cho phép chữ cái
+T114   Amount – Không được để trống
+T115   Không cho phép chữ cái
+T116   Không cho phép ký tự đặc biệt
+T117   Description – Không được để trống
+
+3.10 Functional Validations
+Balance Enquiry
+Teller
+F1   Teller xem số dư TK thuộc chi nhánh mình
+F2   TK phải tồn tại trong CSDL
+Customer
+F3   Customer chỉ xem TK của chính mình
+F4   TK phải tồn tại trong CSDL
+Fund Transfer
+Teller
+F5   TK nguồn/đích không hợp lệ → lỗi
+F6   TK nguồn = TK đích → lỗi
+F7   Số dư không đủ → lỗi
+F8   TK nguồn không thuộc chi nhánh Teller → lỗi
+Customer
+F9   TK đích không hợp lệ → lỗi
+F10   TK nguồn = TK đích → lỗi
+F11   Số dư không đủ → lỗi
+F12   TK nguồn không thuộc Customer → lỗi
+F13   Tổng GD ngày vượt hạn mức → lỗi
+F14   Bắt buộc OTP. Sai 3 lần → hủy GD
+Withdrawal
+Teller
+F15   TK nguồn không hợp lệ → lỗi
+F16   Số dư không đủ → lỗi
+F17   TK không thuộc chi nhánh Teller → lỗi
+Deposit
+Teller
+F18   TK đích không hợp lệ → lỗi
+F19   TK không thuộc chi nhánh Teller → lỗi
+F20   Ghi mã Teller vào bản ghi GD
+New Customer
+Teller
+F21   Email trùng → lỗi
+F22   CMND/CCCD trùng → lỗi
+Edit Customer
+Teller
+F23   Email trùng KH khác → lỗi
+F24   Customer Id không hợp lệ → lỗi
+F25   KH không thuộc chi nhánh Teller → lỗi
+F26   Không cho sửa trường định danh cốt lõi
+Delete Customer
+Teller
+F27   Customer Id không hợp lệ → lỗi
+F28   KH còn TK hoạt động → lỗi
+F29   KH không thuộc chi nhánh Teller → lỗi
+New Account
+Teller
+F30   Customer ID không hợp lệ → lỗi
+F31   Tiền nộp đầu < 500 → lỗi
+F32   KH không thuộc chi nhánh Teller → lỗi
+Edit Account
+Teller
+F33   Account Number không hợp lệ → lỗi
+F34   TK không thuộc chi nhánh Teller → lỗi
+Delete Account
+Teller
+F35   Account Number không hợp lệ → lỗi
+F36   Số dư ≠ 0 → lỗi
+F37   TK không thuộc chi nhánh Teller → lỗi
+Change Password
+Teller
+F38   MK cũ không đúng → lỗi
+Customer
+F39   MK cũ không đúng → lỗi
+Customized Statement
+Teller
+F40   TK không hợp lệ → lỗi
+F41   Từ ngày > Đến ngày → lỗi
+Customer
+F42   TK không hợp lệ → lỗi
+F43   Từ ngày > Đến ngày → lỗi
+F44   TK không thuộc Customer → lỗi
+Mini Statement
+Teller
+F45   TK không hợp lệ → lỗi
+F46   Không có GD → thông báo
+F47   TK không thuộc chi nhánh Teller → lỗi
+Customer
+F48   TK không hợp lệ → lỗi
+F49   TK không thuộc Customer → lỗi
+Login & System
+Hệ thống
+F50   Sai 3 lần liên tiếp → khóa TK 15 phút
+F51   Session timeout 5 phút → auto logout
+F52   Mọi GD tài chính tuân thủ ACID. Lỗi → rollback
+F53   Cơ chế locking chống xung đột đồng thời
+F54   Mọi thao tác CRUD + GD ghi audit log
+F55   TK Tiết kiệm: giới hạn 5 lần rút/tháng, 10 lần CK/tháng, số dư sau GD ≥ 500 VNĐ
+3.11 Classes / Objects
+Các thực thể chính (chi tiết tại 3.15):
+User, KhachHang, TaiKhoan, NhanVien, ChiNhanh, GiaoDich, AuditLog
+3.12 Non-Functional Requirements
+Usability
+Giao diện đơn giản, trực quan. Mọi thao tác chính ≤ 5 bước click.
+Thông báo lỗi rõ ràng, chỉ rõ trường vi phạm.
+Reliability
+Uptime ≥ 99.5%. Giao dịch đảm bảo ACID. Tỷ lệ lỗi hệ thống < 0.01%.
+Performance
+Truy vấn số dư/sao kê: < 2 giây. Chuyển khoản: < 5 giây. Hỗ trợ ≥ 1.000 CCU.
+Security
+Mã hóa: HTTPS + TLS 1.2+. Mật khẩu: bcrypt (cost ≥ 12).
+Chống tấn công: SQL Injection, XSS, CSRF theo OWASP Top 10.
+Phân quyền: Kiểm tra quyền ở cả client và server.
+Audit log: Ghi mọi thao tác CRUD + GD. Log không xóa/sửa được.
+Session: HttpOnly cookie, Secure flag, SameSite=Strict.
+Backup & Recovery
+RPO ≤ 1 giờ. RTO ≤ 4 giờ. Full backup hàng ngày, transaction log mỗi 30 phút.
+Scalability & Maintainability
+Mở rộng ngang ở tầng ứng dụng. CSDL hỗ trợ partitioning. Code tuân thủ convention, có tài liệu API.
+3.13 Inverse Requirements
+Customer KHÔNG nộp/rút tiền mặt, KHÔNG quản lý hồ sơ KH/TK.
+Teller KHÔNG đổi MK của Customer, KHÔNG sửa trường định danh cốt lõi.
+Teller KHÔNG thao tác ngoài chi nhánh mình quản lý.
+Hệ thống KHÔNG tích hợp cổng thanh toán/Core Banking, KHÔNG hỗ trợ mobile trong phiên bản này.
+3.14 Design Constraints
+CSDL: SQL Server 2019+. Kiến trúc: Client-Server qua HTTPS.
+Ngôn ngữ giao diện: Tiếng Việt. Đơn vị tiền tệ: VNĐ.
+Tuân thủ quy định NHNN về giao dịch điện tử.
+3.15 Logical Database Requirements
+User
+Trường
+Kiểu
+Ràng buộc
+Ghi chú
+UserID
+INT
+PK, Auto-increment
+
+Username
+VARCHAR(50)
+UNIQUE, NOT NULL
+Format: C+MaKH hoặc T+MaNV
+PasswordHash
+VARCHAR(255)
+NOT NULL
+bcrypt
+Role
+ENUM
+NOT NULL
+Teller / Customer
+Status
+ENUM
+NOT NULL
+Active / Locked / Disabled
+FailedLoginCount
+INT
+DEFAULT 0
+
+LockedUntil
+DATETIME
+NULL
+
+MustChangePassword
+BIT
+DEFAULT 1
+Bắt đổi MK lần đầu
+ChiNhanh 
+Trường
+Kiểu
+Ràng buộc
+Ghi chú
+MaChiNhanh
+VARCHAR(10)
+PK
+Format: CN + 3 số
+TenChiNhanh
+NVARCHAR(100)
+NOT NULL
+VD: Chi nhánh Quận 1
+DiaChi
+NVARCHAR(255)
+NOT NULL
+
+SDT
+VARCHAR(15)
+
+
+KhachHang
+Trường
+Kiểu
+Ràng buộc
+Ghi chú
+MaKH
+INT
+PK, Auto-increment
+Bắt đầu 10001
+UserID
+INT
+FK → User, UNIQUE
+1-1
+HoTen
+NVARCHAR(100)
+NOT NULL
+
+CMND_CCCD
+VARCHAR(12)
+UNIQUE, NOT NULL
+9 hoặc 12 số
+NgayCap
+DATE
+NOT NULL
+
+NoiCap
+NVARCHAR(100)
+NOT NULL
+
+NgaySinh
+DATE
+
+
+GioiTinh
+ENUM
+
+Nam / Nữ
+DiaChi
+NVARCHAR(255)
+
+
+DiaChiLienLac
+NVARCHAR(255)
+
+
+City
+NVARCHAR(50)
+
+
+State
+NVARCHAR(50)
+
+
+PIN
+VARCHAR(6)
+NOT NULL
+6 chữ số
+SDT
+VARCHAR(15)
+NOT NULL
+Nhận OTP
+Email
+VARCHAR(100)
+UNIQUE
+
+MaSoThue
+VARCHAR(13)
+NULL
+DN
+HanMucNgay
+DECIMAL(18,0)
+NOT NULL
+VNĐ
+PhuongThucXacThuc
+ENUM
+NOT NULL
+SmartOTP / SMSOTP
+GoiDichVu
+ENUM
+NOT NULL
+TaiChinh / PhiTaiChinh
+TaiKhoan
+Trường
+Kiểu
+Ràng buộc
+Ghi chú
+SoTaiKhoan
+VARCHAR(20)
+PK
+Format: 99 + 10 số
+MaKH
+INT
+FK → KhachHang
+1-N
+LoaiTK
+ENUM
+NOT NULL
+TietKiem / VangLai
+SoDu
+DECIMAL(18,2)
+NOT NULL, ≥ 0
+
+NgayMo
+DATETIME
+NOT NULL
+
+TrangThai
+ENUM
+NOT NULL
+Active / Closed
+SoLanRutThang
+INT
+DEFAULT 0
+Reset đầu tháng (TK TietKiem)
+SoLanCKThang
+INT
+DEFAULT 0
+Reset đầu tháng (TK TietKiem)
+Version
+INT
+DEFAULT 1
+Optimistic locking
+NhanVien
+Trường
+Kiểu
+Ràng buộc
+Ghi chú
+MaNV
+INT
+PK, Auto-increment
+
+UserID
+INT
+FK → User, UNIQUE
+1-1
+TenNV
+NVARCHAR(100)
+NOT NULL
+
+MaChiNhanh
+VARCHAR(10)
+FK → ChiNhanh
+
+GiaoDich
+Trường
+Kiểu
+Ràng buộc
+Ghi chú
+MaGD
+BIGINT
+PK, Auto-increment
+
+TKNguon
+VARCHAR(20)
+FK → TaiKhoan
+NULL nếu nộp
+TKDich
+VARCHAR(20)
+FK → TaiKhoan
+NULL nếu rút
+SoTien
+DECIMAL(18,2)
+NOT NULL, > 0
+
+Phi
+DECIMAL(18,2)
+DEFAULT 0
+Phí GD (hiện tại = 0)
+LoaiGD
+ENUM
+NOT NULL
+Nop / Rut / ChuyenKhoan
+NoiDung
+NVARCHAR(255)
+
+
+ThoiGian
+DATETIME
+NOT NULL
+Timestamp server
+NguoiThucHien
+INT
+FK → User
+
+TrangThai
+ENUM
+NOT NULL
+ThanhCong / ThatBai
+AuditLog
+Trường
+Kiểu
+Ràng buộc
+Ghi chú
+LogID
+BIGINT
+PK, Auto-increment
+
+UserID
+INT
+FK → User
+
+HanhDong
+VARCHAR(50)
+NOT NULL
+CREATE/UPDATE/DELETE/LOGIN...
+BangAnhHuong
+VARCHAR(50)
+
+
+DuLieuTruoc
+NVARCHAR(MAX)
+NULL
+JSON
+DuLieuSau
+NVARCHAR(MAX)
+NULL
+JSON
+ThoiGian
+DATETIME
+NOT NULL
+
+IPAddress
+VARCHAR(45)
+
+
+Mối quan hệ
+User (1) — (0..1) KhachHang | User (1) — (0..1) NhanVien
+NhanVien (N) — (1) ChiNhanh
+KhachHang (1) — (N) TaiKhoan | TaiKhoan (1) — (N) GiaoDich
+User (1) — (N) AuditLog
+3.16 Other Requirements
+Nil.
+4. Analysis Models
+Sẽ bổ sung sơ đồ Use Case, ERD, Activity Diagram trong phiên bản tiếp theo.
+5. Change Management Process
+Mọi thay đổi đối với SRS sẽ được gửi đến Project Sponsor. Yêu cầu phê duyệt từ Dev Lead, QA Lead và khách hàng. Sau phê duyệt, SRS được cập nhật, ghi nhận trong Revision History và phân phối cho tất cả bên liên quan.
+A. Appendices – Verification Checklist
+STT
+Hạng mục
+Tiêu chí xác minh
+Status
+Ref
+A
+Tính đầy đủ dữ liệu
+
+
+
+1
+Thông tin định danh
+Lưu đủ CMND/CCCD, MST?
+☐
+3.1, T30
+2
+Cấu hình dịch vụ
+Thiết lập hạn mức riêng?
+☐
+3.1, T35
+3
+Output đầy đủ
+Hiển thị mã GD, số dư mới sau GD?
+☐
+3.2
+B
+Logic nghiệp vụ
+
+
+
+4
+Hạn mức
+Chặn GD vượt hạn mức ngày?
+☐
+F13
+5
+OTP
+Bắt buộc OTP cho CK Customer?
+☐
+F14, 3.5
+6
+Quy tắc xóa
+Chặn xóa KH còn TK hoạt động?
+☐
+F28
+7
+Nguyên tử
+Rollback đầy đủ khi lỗi?
+☐
+F52
+8
+Loại TK
+TK Tiết kiệm giới hạn rút/CK?
+☐
+3.7, F55
+C
+Tính nhất quán
+
+
+
+9
+CCCD hạn
+Cảnh báo CMND quá hạn?
+☐
+T32
+10
+Phân quyền
+Teller chỉ thao tác chi nhánh mình?
+☐
+F8, F17
+11
+Truy vết
+Ghi mã Teller khi Nộp/Rút?
+☐
+F20
+12
+Editable fields
+Không sửa được trường readonly?
+☐
+3.8
+D
+Bảo mật
+
+
+
+13
+Mã hóa MK
+bcrypt cost ≥ 12?
+☐
+3.12
+14
+Audit log
+Mọi thao tác ghi log?
+☐
+F54
+15
+Đồng thời
+2 GD cùng lúc xử lý đúng?
+☐
+F53
+16
+Sinh mã
+SoTaiKhoan/Username đúng format?
+☐
+3.4
+

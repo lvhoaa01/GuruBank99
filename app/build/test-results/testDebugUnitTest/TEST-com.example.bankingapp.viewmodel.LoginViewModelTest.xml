@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bankingapp.viewmodel.LoginViewModelTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-05-19T10:03:03" hostname="VSC" time="0.029">
+  <properties/>
+  <testcase name="lockedAccountInsideWindow_reportsLocked" classname="com.example.bankingapp.viewmodel.LoginViewModelTest" time="0.009"/>
+  <testcase name="success_opensSession" classname="com.example.bankingapp.viewmodel.LoginViewModelTest" time="0.004"/>
+  <testcase name="unknownUser_reportsUserNotFound" classname="com.example.bankingapp.viewmodel.LoginViewModelTest" time="0.003"/>
+  <testcase name="emptyPassword_reportsT100" classname="com.example.bankingapp.viewmodel.LoginViewModelTest" time="0.001"/>
+  <testcase name="threeWrongAttempts_locksAccount" classname="com.example.bankingapp.viewmodel.LoginViewModelTest" time="0.005"/>
+  <testcase name="wrongPassword_firstAttempt_invalidCredentials" classname="com.example.bankingapp.viewmodel.LoginViewModelTest" time="0.004"/>
+  <testcase name="emptyUsername_reportsT99" classname="com.example.bankingapp.viewmodel.LoginViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

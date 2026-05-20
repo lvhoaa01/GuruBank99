@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bankingapp.viewmodel.WithdrawViewModelTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-19T10:03:03" hostname="VSC" time="0.017">
+  <properties/>
+  <testcase name="success_decrementsBalance_andIncrementsMonthlyCounter" classname="com.example.bankingapp.viewmodel.WithdrawViewModelTest" time="0.008"/>
+  <testcase name="savingBalanceFloor_blocks" classname="com.example.bankingapp.viewmodel.WithdrawViewModelTest" time="0.004"/>
+  <testcase name="insufficientFunds_fails" classname="com.example.bankingapp.viewmodel.WithdrawViewModelTest" time="0.002"/>
+  <testcase name="notOwner_fails" classname="com.example.bankingapp.viewmodel.WithdrawViewModelTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

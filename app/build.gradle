@@ -1,0 +1,118 @@
+plugins {
+    id 'com.android.application'
+    id 'jacoco'
+}
+
+android {
+    namespace 'com.example.bankingapp'
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId "com.example.bankingapp"
+        // Bumped from 24 → 26 because the PostgreSQL JDBC driver (42.7.x) ships
+        // bytecode that uses MethodHandle.invoke / invokeExact in its optional
+        // Kerberos/GSS and SecurityManager code paths. D8 only accepts those
+        // instructions from API 26 (Android O) onwards. We never call those
+        // code paths at runtime — we use scram-sha-256 — but the compiler
+        // still has to be able to dex the classes.
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // 10.0.2.2 is the Android emulator's alias for the host machine's
+        // loopback. Traffic NAT'd through the emulator arrives at Postgres
+        // as if it came from 127.0.0.1 — so the default pg_hba.conf rule
+        // (host all all 127.0.0.1/32 scram-sha-256) is sufficient.
+        //
+        // For real devices on the same LAN, swap in the dev machine's
+        // LAN IPv4 (`ipconfig`) and run db\setup-lan-access.ps1 once.
+        buildConfigField "String", "DB_URL",  "\"jdbc:postgresql://10.0.2.2:5432/bank99?maxResultBuffer=0\""
+        buildConfigField "String", "DB_USER", "\"bank99user\""
+        buildConfigField "String", "DB_PASS", "\"bank99pass\""
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    packaging {
+        resources {
+            excludes += ['META-INF/LICENSE*', 'META-INF/NOTICE*', 'META-INF/DEPENDENCIES']
+        }
+    }
+
+    testOptions {
+        unitTests.includeAndroidResources = true
+        unitTests.returnDefaultValues = true
+    }
+}
+
+jacoco {
+    toolVersion = "0.8.11"
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata:2.7.0'
+    implementation 'com.google.android.material:material:1.11.0'
+
+    // PostgreSQL JDBC driver — used directly from the Android app for this
+    // testing-course exercise. Not a production-grade choice.
+    implementation 'org.postgresql:postgresql:42.2.5'
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:5.7.0'
+    testImplementation 'androidx.arch.core:core-testing:2.2.0'
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.5.1'
+    androidTestImplementation 'androidx.test:rules:1.5.0'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+}
+
+// ---- JaCoCo aggregated unit-test coverage ----
+task jacocoTestReport(type: JacocoReport, dependsOn: ['testDebugUnitTest']) {
+    group = 'verification'
+    description = 'Generates JaCoCo coverage report for unit tests (debug variant).'
+
+    reports {
+        xml.required = true
+        html.required = true
+    }
+
+    def fileFilter = [
+            '**/R.class', '**/R$*.class', '**/BuildConfig.*',
+            '**/Manifest*.*', '**/*Test*.*', 'android/**/*.*',
+            '**/databinding/**/*.*', '**/*Activity*.class',
+            '**/*Fragment*.class', '**/ui/**/*.*'
+    ]
+    def debugTree = fileTree(dir: "$buildDir/intermediates/javac/debug/classes", excludes: fileFilter)
+    def mainSrc = "$projectDir/src/main/java"
+
+    sourceDirectories.setFrom(files([mainSrc]))
+    classDirectories.setFrom(files([debugTree]))
+    executionData.setFrom(fileTree(dir: "$buildDir", includes: [
+            "jacoco/testDebugUnitTest.exec"
+    ]))
+}

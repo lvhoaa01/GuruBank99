@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bankingapp.utils.SessionManagerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-05-19T10:03:00" hostname="VSC" time="0.007">
+  <properties/>
+  <testcase name="login_isLoggedIn" classname="com.example.bankingapp.utils.SessionManagerTest" time="0.004"/>
+  <testcase name="expires_after5Minutes" classname="com.example.bankingapp.utils.SessionManagerTest" time="0.001"/>
+  <testcase name="recordActivity_extendsSession" classname="com.example.bankingapp.utils.SessionManagerTest" time="0.0"/>
+  <testcase name="touchOrExpire_clearsSessionWhenExpired" classname="com.example.bankingapp.utils.SessionManagerTest" time="0.001"/>
+  <testcase name="logout_clears" classname="com.example.bankingapp.utils.SessionManagerTest" time="0.0"/>
+  <testcase name="notLoggedIn_byDefault" classname="com.example.bankingapp.utils.SessionManagerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

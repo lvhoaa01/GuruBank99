@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/otp_title" android:textSize="20sp" android:textStyle="bold" android:layout_marginBottom="16dp" />
+    <TextView android:id="@+id/tvDisplayedOtp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/primaryDark" />
+    <EditText android:id="@+id/etOtp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_otp" android:inputType="number" android:maxLength="6" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="16dp" android:weightSum="2">
+        <Button android:id="@+id/btnVerify" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_verify" />
+        <Button android:id="@+id/btnResend" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_resend" />
+    </LinearLayout>
+    <TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+</LinearLayout>

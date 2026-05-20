@@ -1,0 +1,6 @@
+// Top-level build file
+plugins {
+    // AGP 8.7.3: understands SDK XML v4, compatible with Gradle 8.9.
+    // (Bumped from 8.2.2 which failed against Gradle 9.x and newer SDK packages.)
+    id 'com.android.application' version '8.13.2' apply false
+}
