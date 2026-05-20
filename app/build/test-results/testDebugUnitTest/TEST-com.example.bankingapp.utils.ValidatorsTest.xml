@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.bankingapp.utils.ValidatorsTest" tests="41" skipped="0" failures="0" errors="0" timestamp="2026-05-19T10:03:00" hostname="VSC" time="0.037">
+<testsuite name="com.example.bankingapp.utils.ValidatorsTest" tests="41" skipped="0" failures="0" errors="0" timestamp="2026-05-20T07:48:55.491Z" hostname="VSC" time="0.024">
   <properties/>
-  <testcase name="pin_tooLong_T21" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.009"/>
+  <testcase name="pin_tooLong_T21" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="email_valid" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
   <testcase name="email_invalidFormat_T28" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="password_noSpecial_T107" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="phone_withLetter_T25" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="password_noSpecial_T107" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="phone_withLetter_T25" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="amount_zero_rejected" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
-  <testcase name="account_withSpecial" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="account_withSpecial" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="pin_withSpecial_T20" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="id_letters_T31" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="pin_empty_T19" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
-  <testcase name="customerName_withDigit_T4" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="id_boundary10_invalid" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="id_letters_T31" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="pin_empty_T19" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
+  <testcase name="customerName_withDigit_T4" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="id_boundary10_invalid" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="account_empty" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="account_valid" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
+  <testcase name="account_valid" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
   <testcase name="password_noDigit_T106" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
   <testcase name="pin_withLetter_T18" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="customerName_leadingSpace_T7" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
   <testcase name="customerName_empty_T6" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="customerName_withSpecial_T5" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="password_7chars_tooShort_T108" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
-  <testcase name="amount_valid_positive" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="pin_tooShort_T21" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
+  <testcase name="amount_valid_positive" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="pin_tooShort_T21" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
   <testcase name="password_8chars_validIfDigitAndSpecial" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="phone_validVN" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="pin_leadingSpace_T22" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="phone_validVN" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="pin_leadingSpace_T22" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="id_valid12digits" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="customerName_valid" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="password_confirmMismatch_T110" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="password_confirmMismatch_T110" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="phone_tooShort" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="account_withLetters" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="account_withLetters" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="amount_letters" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
-  <testcase name="amount_empty" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
-  <testcase name="email_empty_T27" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
-  <testcase name="password_confirmEmpty_T109" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="amount_negative_rejected" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="amount_empty" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
+  <testcase name="email_empty_T27" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
+  <testcase name="password_confirmEmpty_T109" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="amount_negative_rejected" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="amount_specials" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="amount_one_boundary" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
   <testcase name="pin_valid_6digits" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <testcase name="id_boundary11_invalid" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
   <testcase name="email_leadingSpace_T29" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
-  <testcase name="id_valid9digits" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.001"/>
+  <testcase name="id_valid9digits" classname="com.example.bankingapp.utils.ValidatorsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

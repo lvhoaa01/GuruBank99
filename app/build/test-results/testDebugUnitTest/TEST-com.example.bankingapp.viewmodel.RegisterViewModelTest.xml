@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.bankingapp.viewmodel.RegisterViewModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-19T10:03:03" hostname="VSC" time="0.202">
+<testsuite name="com.example.bankingapp.viewmodel.RegisterViewModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-20T07:48:55.616Z" hostname="VSC" time="0.178">
   <properties/>
-  <testcase name="initialDepositBelowMin_F31" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.171"/>
-  <testcase name="success_savesUserAndAccount" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.015"/>
-  <testcase name="duplicateEmail_F21" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.005"/>
-  <testcase name="duplicateIdNumber_F22" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.006"/>
-  <testcase name="invalidName_failsFast" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.005"/>
+  <testcase name="initialDepositBelowMin_F31" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.152"/>
+  <testcase name="success_savesUserAndAccount" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.014"/>
+  <testcase name="duplicateEmail_F21" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.004"/>
+  <testcase name="duplicateIdNumber_F22" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.004"/>
+  <testcase name="invalidName_failsFast" classname="com.example.bankingapp.viewmodel.RegisterViewModelTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,5 +1,49 @@
 [
     {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_edit_customer.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_edit_customer.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_otp.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_otp.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_dashboard.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_dashboard.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_new_account.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_new_account.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_transaction_history.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_transaction_history.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_transfer.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_transfer.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_statement.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_statement.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_deposit.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_deposit.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_profile.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_edit_account.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_edit_account.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_withdraw.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_withdraw.xml"
+    },
+    {
         "merged": "com.example.bankingapp-debug-4:/layout_activity_login.xml.flat",
         "source": "com.example.bankingapp-main-6:/layout/activity_login.xml"
     },
@@ -16,28 +60,24 @@
         "source": "com.example.bankingapp-main-6:/layout/item_transaction.xml"
     },
     {
-        "merged": "com.example.bankingapp-debug-4:/layout_activity_otp.xml.flat",
-        "source": "com.example.bankingapp-main-6:/layout/activity_otp.xml"
-    },
-    {
-        "merged": "com.example.bankingapp-debug-4:/layout_activity_transaction_history.xml.flat",
-        "source": "com.example.bankingapp-main-6:/layout/activity_transaction_history.xml"
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_delete_account.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_delete_account.xml"
     },
     {
         "merged": "com.example.bankingapp-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.example.bankingapp-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.bankingapp-debug-4:/layout_activity_profile.xml.flat",
-        "source": "com.example.bankingapp-main-6:/layout/activity_profile.xml"
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_withdraw.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_withdraw.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_new_customer.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_new_customer.xml"
     },
     {
         "merged": "com.example.bankingapp-debug-4:/layout_activity_change_password.xml.flat",
         "source": "com.example.bankingapp-main-6:/layout/activity_change_password.xml"
-    },
-    {
-        "merged": "com.example.bankingapp-debug-4:/layout_activity_withdraw.xml.flat",
-        "source": "com.example.bankingapp-main-6:/layout/activity_withdraw.xml"
     },
     {
         "merged": "com.example.bankingapp-debug-4:/drawable_ic_launcher_foreground.xml.flat",
@@ -58,6 +98,10 @@
     {
         "merged": "com.example.bankingapp-debug-4:/layout_activity_deposit.xml.flat",
         "source": "com.example.bankingapp-main-6:/layout/activity_deposit.xml"
+    },
+    {
+        "merged": "com.example.bankingapp-debug-4:/layout_activity_teller_delete_customer.xml.flat",
+        "source": "com.example.bankingapp-main-6:/layout/activity_teller_delete_customer.xml"
     },
     {
         "merged": "com.example.bankingapp-debug-4:/drawable_ic_launcher_background.xml.flat",

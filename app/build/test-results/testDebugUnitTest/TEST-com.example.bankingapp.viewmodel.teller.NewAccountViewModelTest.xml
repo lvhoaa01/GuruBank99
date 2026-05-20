@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bankingapp.viewmodel.teller.NewAccountViewModelTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-20T07:48:55.956Z" hostname="VSC" time="0.023">
+  <properties/>
+  <testcase name="customerInOtherBranch_returnsF32" classname="com.example.bankingapp.viewmodel.teller.NewAccountViewModelTest" time="0.009"/>
+  <testcase name="initialBelow500_returnsF31" classname="com.example.bankingapp.viewmodel.teller.NewAccountViewModelTest" time="0.003"/>
+  <testcase name="unknownCustomer_returnsF30" classname="com.example.bankingapp.viewmodel.teller.NewAccountViewModelTest" time="0.005"/>
+  <testcase name="exact500_passes" classname="com.example.bankingapp.viewmodel.teller.NewAccountViewModelTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

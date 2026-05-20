@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bankingapp.viewmodel.teller.TellerDepositViewModelTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-20T07:48:56.026Z" hostname="VSC" time="0.021">
+  <properties/>
+  <testcase name="success_credits_andRecordsTeller" classname="com.example.bankingapp.viewmodel.teller.TellerDepositViewModelTest" time="0.011"/>
+  <testcase name="missingAccount_returnsF18" classname="com.example.bankingapp.viewmodel.teller.TellerDepositViewModelTest" time="0.005"/>
+  <testcase name="accountInOtherBranch_returnsF19" classname="com.example.bankingapp.viewmodel.teller.TellerDepositViewModelTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.bankingapp.viewmodel.TransferViewModelTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-05-19T10:03:03" hostname="VSC" time="0.093">
+<testsuite name="com.example.bankingapp.viewmodel.TransferViewModelTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-05-20T07:48:55.809Z" hostname="VSC" time="0.087">
   <properties/>
-  <testcase name="submitDetails_success_movesToOtpPhase" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.042"/>
-  <testcase name="submitOtpWithoutPending_fails" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.005"/>
-  <testcase name="resendOtp_replacesCode" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.008"/>
+  <testcase name="submitDetails_success_movesToOtpPhase" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.039"/>
+  <testcase name="submitOtpWithoutPending_fails" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.004"/>
+  <testcase name="resendOtp_replacesCode" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.006"/>
   <testcase name="submitDetails_sameAccount_fails" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.008"/>
   <testcase name="wrongOtp_keepsOtpPhase_andReportsWrong" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.006"/>
   <testcase name="threeWrongOtps_cancelsTransfer" classname="com.example.bankingapp.viewmodel.TransferViewModelTest" time="0.006"/>

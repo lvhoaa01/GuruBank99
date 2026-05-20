@@ -48,6 +48,19 @@
         <activity android:name="com.example.bankingapp.ui.profile.ProfileActivity" />
         <activity android:name="com.example.bankingapp.ui.profile.ChangePasswordActivity" />
 
+        <!-- Teller-side activities -->
+        <activity android:name="com.example.bankingapp.ui.teller.TellerDashboardActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.NewCustomerActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.EditCustomerActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.DeleteCustomerActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.NewAccountActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.EditAccountActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.DeleteAccountActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.TellerDepositActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.TellerWithdrawActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.TellerTransferActivity" />
+        <activity android:name="com.example.bankingapp.ui.teller.TellerStatementActivity" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.bankingapp.androidx-startup"

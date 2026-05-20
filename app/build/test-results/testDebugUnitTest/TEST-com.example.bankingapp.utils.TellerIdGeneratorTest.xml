@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bankingapp.utils.TellerIdGeneratorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-20T07:48:55.469Z" hostname="VSC" time="0.005">
+  <properties/>
+  <testcase name="formatUsername_padsToThreeDigits" classname="com.example.bankingapp.utils.TellerIdGeneratorTest" time="0.003"/>
+  <testcase name="next_isMonotonic" classname="com.example.bankingapp.utils.TellerIdGeneratorTest" time="0.0"/>
+  <testcase name="advanceTo_skipsForwardOnly" classname="com.example.bankingapp.utils.TellerIdGeneratorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/teller_statement_title" android:textSize="20sp" android:textStyle="bold" />
+
+    <EditText android:id="@+id/etAccount"   android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_account_number" android:inputType="number" />
+    <EditText android:id="@+id/etFromDate"  android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_from_date" android:inputType="text" />
+    <EditText android:id="@+id/etToDate"    android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_to_date"   android:inputType="text" />
+    <EditText android:id="@+id/etMinAmount" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_min_amount" android:inputType="number" />
+    <EditText android:id="@+id/etMaxCount"  android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_max_count"  android:inputType="number" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="3">
+        <Button android:id="@+id/btnBalance" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_show_balance" />
+        <Button android:id="@+id/btnMini"    android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_show_mini" />
+        <Button android:id="@+id/btnFilter"  android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/btn_show_filtered" />
+    </LinearLayout>
+
+    <TextView android:id="@+id/tvBalance" android:layout_width="match_parent" android:layout_height="wrap_content" android:textStyle="bold" android:layout_marginTop="8dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

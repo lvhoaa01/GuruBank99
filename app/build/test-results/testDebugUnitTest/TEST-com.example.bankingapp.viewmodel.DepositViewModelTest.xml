@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.bankingapp.viewmodel.DepositViewModelTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-05-19T10:03:03" hostname="VSC" time="0.136">
+<testsuite name="com.example.bankingapp.viewmodel.DepositViewModelTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-05-20T07:48:55.550Z" hostname="VSC" time="0.022">
   <properties/>
-  <testcase name="emptyAccount_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.098"/>
-  <testcase name="success_updatesBalanceAndSavesTxn" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.028"/>
-  <testcase name="zeroAmount_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.002"/>
-  <testcase name="accountMissing_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.004"/>
+  <testcase name="emptyAccount_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.004"/>
+  <testcase name="success_updatesBalanceAndSavesTxn" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.006"/>
+  <testcase name="zeroAmount_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.003"/>
+  <testcase name="accountMissing_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.005"/>
   <testcase name="notOwner_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.002"/>
-  <testcase name="invalidAmount_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.001"/>
+  <testcase name="invalidAmount_fails" classname="com.example.bankingapp.viewmodel.DepositViewModelTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

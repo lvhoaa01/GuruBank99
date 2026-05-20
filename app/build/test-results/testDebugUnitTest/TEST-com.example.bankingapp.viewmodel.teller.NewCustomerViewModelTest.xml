@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bankingapp.viewmodel.teller.NewCustomerViewModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-20T07:48:55.987Z" hostname="VSC" time="0.031">
+  <properties/>
+  <testcase name="dailyLimitOutOfRange_T35" classname="com.example.bankingapp.viewmodel.teller.NewCustomerViewModelTest" time="0.01"/>
+  <testcase name="success_savesUser_andLogsAudit" classname="com.example.bankingapp.viewmodel.teller.NewCustomerViewModelTest" time="0.01"/>
+  <testcase name="duplicateEmail_F21" classname="com.example.bankingapp.viewmodel.teller.NewCustomerViewModelTest" time="0.005"/>
+  <testcase name="duplicateId_F22" classname="com.example.bankingapp.viewmodel.teller.NewCustomerViewModelTest" time="0.003"/>
+  <testcase name="invalidName_failsFast" classname="com.example.bankingapp.viewmodel.teller.NewCustomerViewModelTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

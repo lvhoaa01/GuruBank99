@@ -32,6 +32,19 @@
         <activity android:name=".ui.profile.ProfileActivity" />
         <activity android:name=".ui.profile.ChangePasswordActivity" />
 
+        <!-- Teller-side activities -->
+        <activity android:name=".ui.teller.TellerDashboardActivity" />
+        <activity android:name=".ui.teller.NewCustomerActivity" />
+        <activity android:name=".ui.teller.EditCustomerActivity" />
+        <activity android:name=".ui.teller.DeleteCustomerActivity" />
+        <activity android:name=".ui.teller.NewAccountActivity" />
+        <activity android:name=".ui.teller.EditAccountActivity" />
+        <activity android:name=".ui.teller.DeleteAccountActivity" />
+        <activity android:name=".ui.teller.TellerDepositActivity" />
+        <activity android:name=".ui.teller.TellerWithdrawActivity" />
+        <activity android:name=".ui.teller.TellerTransferActivity" />
+        <activity android:name=".ui.teller.TellerStatementActivity" />
+
     </application>
 
 </manifest>

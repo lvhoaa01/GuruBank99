@@ -62,4 +62,38 @@
     <string name="hint_old_password">Old password</string>
     <string name="hint_new_password">New password</string>
     <string name="hint_confirm_password">Confirm password</string>
+
+    <!-- =================== Teller =================== -->
+    <string name="teller_dashboard_title">Teller Dashboard</string>
+    <string name="teller_greeting">Welcome %1$s — %2$s</string>
+    <string name="btn_new_customer">New Customer</string>
+    <string name="btn_edit_customer">Edit Customer</string>
+    <string name="btn_delete_customer">Delete Customer</string>
+    <string name="btn_new_account">New Account</string>
+    <string name="btn_edit_account">Edit Account</string>
+    <string name="btn_delete_account">Delete Account</string>
+    <string name="btn_teller_deposit">Deposit (Teller)</string>
+    <string name="btn_teller_withdraw">Withdraw (Teller)</string>
+    <string name="btn_teller_transfer">Transfer (Teller)</string>
+    <string name="btn_teller_statement">Balance / Statement</string>
+    <string name="hint_customer_id">Customer ID</string>
+    <string name="hint_account_type">Account type (SAVING / CURRENT)</string>
+    <string name="hint_daily_limit">Daily limit (VND)</string>
+    <string name="hint_new_account_type">SAVING or CURRENT</string>
+    <string name="btn_load">Load</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_show_balance">Show Balance</string>
+    <string name="btn_show_mini">Mini statement</string>
+    <string name="btn_show_filtered">Filtered statement</string>
+    <string name="teller_new_customer_title">New Customer</string>
+    <string name="teller_edit_customer_title">Edit Customer</string>
+    <string name="teller_delete_customer_title">Delete Customer</string>
+    <string name="teller_new_account_title">New Account</string>
+    <string name="teller_edit_account_title">Edit Account</string>
+    <string name="teller_delete_account_title">Close Account</string>
+    <string name="teller_deposit_title">Teller Deposit</string>
+    <string name="teller_withdraw_title">Teller Withdraw</string>
+    <string name="teller_transfer_title">Teller Transfer</string>
+    <string name="teller_statement_title">Balance &amp; Statement</string>
 </resources>
