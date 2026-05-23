@@ -1,10 +1,8 @@
 # Bank99 — RTM Test Plan
 
-**Project:** Bank99 Banking (Android, Customer + Teller scope per SRS v2.0)
-**Reference:** SRS_Bank99_Final.docx; RTM_TemplateGuru99_N.xlsx
-**Reviewer/Approver:** Nhân
+**Project:** Bank99 Banking (Android, Customer + Teller scope per SRS)
 **Total test cases:** 200
-**Team size:** 5 (A, B, C, D, E)
+**Team size:** 5 (A, B, C, D, E) (ex)
 **Avg load:** 40 test cases / người
 
 ---
@@ -350,5 +348,5 @@ Priority key — **High** = blocker / money-touching / security; **Medium** = va
 | D | 40 (đếm + sub) | Deposit (15) + Withdraw (17) + Mini Statement (10) + Customized Statement (18) |
 | E | 40 (đếm + sub) | Fund Transfer (25) + OTP (12) + Fees (5) + ACID (3) + NFR Performance/Reliability/Backup/Inverse (10) |
 
-> Bảng trên là count ban đầu cho mỗi mảng. Một số test có thể được tách thành sub-case khi viết unit test thực tế (boundary value, equivalence class) — nhưng giữ nguyên Traceability # gốc trong file Excel.
+
 
