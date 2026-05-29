@@ -42,154 +42,153 @@
 28-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:12:9-54
 29        android:supportsRtl="true"
 29-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:13:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.Bank99" >
-31-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:14:9-44
-32        <activity
-32-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:16:9-23:20
-33            android:name="com.example.bankingapp.ui.login.LoginActivity"
-33-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:17:13-51
-34            android:exported="true" >
-34-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:18:13-36
-35            <intent-filter>
-35-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:19:13-22:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:20:17-69
-36-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:20:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:21:17-77
-38-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:21:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity android:name="com.example.bankingapp.ui.register.RegisterActivity" />
-41-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:25:9-66
-41-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:25:19-63
-42        <activity android:name="com.example.bankingapp.ui.dashboard.DashboardActivity" />
-42-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:26:9-68
-42-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:26:19-65
-43        <activity android:name="com.example.bankingapp.ui.deposit.DepositActivity" />
-43-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:27:9-64
-43-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:27:19-61
-44        <activity android:name="com.example.bankingapp.ui.withdraw.WithdrawActivity" />
-44-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:28:9-66
-44-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:28:19-63
-45        <activity android:name="com.example.bankingapp.ui.transfer.TransferActivity" />
-45-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:29:9-66
-45-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:29:19-63
-46        <activity android:name="com.example.bankingapp.ui.transfer.OtpActivity" />
-46-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:30:9-61
-46-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:30:19-58
-47        <activity android:name="com.example.bankingapp.ui.transaction.TransactionHistoryActivity" />
-47-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:31:9-79
-47-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:31:19-76
-48        <activity android:name="com.example.bankingapp.ui.profile.ProfileActivity" />
-48-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:32:9-64
-48-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:32:19-61
-49        <activity android:name="com.example.bankingapp.ui.profile.ChangePasswordActivity" />
-49-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:33:9-71
-49-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:33:19-68
-50
-51        <!-- Teller-side activities -->
-52        <activity android:name="com.example.bankingapp.ui.teller.TellerDashboardActivity" />
-52-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:36:9-71
-52-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:36:19-68
-53        <activity android:name="com.example.bankingapp.ui.teller.NewCustomerActivity" />
-53-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:37:9-67
-53-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:37:19-64
-54        <activity android:name="com.example.bankingapp.ui.teller.EditCustomerActivity" />
-54-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:38:9-68
-54-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:38:19-65
-55        <activity android:name="com.example.bankingapp.ui.teller.DeleteCustomerActivity" />
-55-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:39:9-70
-55-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:39:19-67
-56        <activity android:name="com.example.bankingapp.ui.teller.NewAccountActivity" />
-56-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:40:9-66
-56-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:40:19-63
-57        <activity android:name="com.example.bankingapp.ui.teller.EditAccountActivity" />
-57-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:41:9-67
-57-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:41:19-64
-58        <activity android:name="com.example.bankingapp.ui.teller.DeleteAccountActivity" />
-58-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:42:9-69
-58-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:42:19-66
-59        <activity android:name="com.example.bankingapp.ui.teller.TellerDepositActivity" />
-59-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:43:9-69
-59-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:43:19-66
-60        <activity android:name="com.example.bankingapp.ui.teller.TellerWithdrawActivity" />
-60-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:44:9-70
-60-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:44:19-67
-61        <activity android:name="com.example.bankingapp.ui.teller.TellerTransferActivity" />
-61-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:45:9-70
-61-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:45:19-67
-62        <activity android:name="com.example.bankingapp.ui.teller.TellerStatementActivity" />
-62-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:46:9-71
-62-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:46:19-68
-63
-64        <provider
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-65            android:name="androidx.startup.InitializationProvider"
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-66            android:authorities="com.example.bankingapp.androidx-startup"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-67            android:exported="false" >
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-68            <meta-data
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-70                android:value="androidx.startup" />
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-71            <meta-data
-71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\XPS\.gradle\caches\8.13\transforms\21741741436e0d7e812f4454b0c3c886\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-72-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\XPS\.gradle\caches\8.13\transforms\21741741436e0d7e812f4454b0c3c886\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-73                android:value="androidx.startup" />
-73-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\XPS\.gradle\caches\8.13\transforms\21741741436e0d7e812f4454b0c3c886\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-74            <meta-data
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-76                android:value="androidx.startup" />
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-77        </provider>
-78
-79        <receiver
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-81            android:directBootAware="false"
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-82            android:enabled="true"
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-83            android:exported="true"
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-84            android:permission="android.permission.DUMP" >
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-85            <intent-filter>
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-87            </intent-filter>
-88            <intent-filter>
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-90            </intent-filter>
-91            <intent-filter>
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-93            </intent-filter>
-94            <intent-filter>
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-96            </intent-filter>
-97        </receiver>
-98    </application>
-99
-100</manifest>
+30        android:theme="@style/Theme.Bank99" >
+30-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:14:9-44
+31        <activity
+31-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:16:9-23:20
+32            android:name="com.example.bankingapp.ui.login.LoginActivity"
+32-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:17:13-51
+33            android:exported="true" >
+33-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:18:13-36
+34            <intent-filter>
+34-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:19:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:20:17-69
+35-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:20:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:21:17-77
+37-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.example.bankingapp.ui.register.RegisterActivity" />
+40-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:25:9-66
+40-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:25:19-63
+41        <activity android:name="com.example.bankingapp.ui.dashboard.DashboardActivity" />
+41-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:26:9-68
+41-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:26:19-65
+42        <activity android:name="com.example.bankingapp.ui.deposit.DepositActivity" />
+42-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:27:9-64
+42-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:27:19-61
+43        <activity android:name="com.example.bankingapp.ui.withdraw.WithdrawActivity" />
+43-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:28:9-66
+43-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:28:19-63
+44        <activity android:name="com.example.bankingapp.ui.transfer.TransferActivity" />
+44-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:29:9-66
+44-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:29:19-63
+45        <activity android:name="com.example.bankingapp.ui.transfer.OtpActivity" />
+45-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:30:9-61
+45-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:30:19-58
+46        <activity android:name="com.example.bankingapp.ui.transaction.TransactionHistoryActivity" />
+46-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:31:9-79
+46-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:31:19-76
+47        <activity android:name="com.example.bankingapp.ui.profile.ProfileActivity" />
+47-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:32:9-64
+47-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:32:19-61
+48        <activity android:name="com.example.bankingapp.ui.profile.ChangePasswordActivity" />
+48-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:33:9-71
+48-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:33:19-68
+49
+50        <!-- Teller-side activities -->
+51        <activity android:name="com.example.bankingapp.ui.teller.TellerDashboardActivity" />
+51-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:36:9-71
+51-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:36:19-68
+52        <activity android:name="com.example.bankingapp.ui.teller.NewCustomerActivity" />
+52-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:37:9-67
+52-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:37:19-64
+53        <activity android:name="com.example.bankingapp.ui.teller.EditCustomerActivity" />
+53-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:38:9-68
+53-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:38:19-65
+54        <activity android:name="com.example.bankingapp.ui.teller.DeleteCustomerActivity" />
+54-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:39:9-70
+54-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:39:19-67
+55        <activity android:name="com.example.bankingapp.ui.teller.NewAccountActivity" />
+55-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:40:9-66
+55-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:40:19-63
+56        <activity android:name="com.example.bankingapp.ui.teller.EditAccountActivity" />
+56-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:41:9-67
+56-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:41:19-64
+57        <activity android:name="com.example.bankingapp.ui.teller.DeleteAccountActivity" />
+57-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:42:9-69
+57-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:42:19-66
+58        <activity android:name="com.example.bankingapp.ui.teller.TellerDepositActivity" />
+58-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:43:9-69
+58-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:43:19-66
+59        <activity android:name="com.example.bankingapp.ui.teller.TellerWithdrawActivity" />
+59-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:44:9-70
+59-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:44:19-67
+60        <activity android:name="com.example.bankingapp.ui.teller.TellerTransferActivity" />
+60-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:45:9-70
+60-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:45:19-67
+61        <activity android:name="com.example.bankingapp.ui.teller.TellerStatementActivity" />
+61-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:46:9-71
+61-->C:\DDrive\GuruBank99\app\src\main\AndroidManifest.xml:46:19-68
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+65            android:authorities="com.example.bankingapp.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\XPS\.gradle\caches\8.13\transforms\4d2453fdc4c3c668e840984901fbd925\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\XPS\.gradle\caches\8.13\transforms\21741741436e0d7e812f4454b0c3c886\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\XPS\.gradle\caches\8.13\transforms\21741741436e0d7e812f4454b0c3c886\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\XPS\.gradle\caches\8.13\transforms\21741741436e0d7e812f4454b0c3c886\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+75                android:value="androidx.startup" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+76        </provider>
+77
+78        <receiver
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+80            android:directBootAware="false"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+81            android:enabled="true"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+82            android:exported="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+83            android:permission="android.permission.DUMP" >
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+88                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+91                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+94                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\XPS\.gradle\caches\8.13\transforms\dac026611e494124e2f9ae76190a7245\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>

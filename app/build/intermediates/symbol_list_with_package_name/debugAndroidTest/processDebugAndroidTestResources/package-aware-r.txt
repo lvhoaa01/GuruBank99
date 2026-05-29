@@ -1,0 +1,3 @@
+com.example.bankingapp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

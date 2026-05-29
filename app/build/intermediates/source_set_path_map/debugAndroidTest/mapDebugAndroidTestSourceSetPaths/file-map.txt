@@ -1,0 +1,7 @@
+com.example.bankingapp.test.app-androidTest-0 C:\DDrive\GuruBank99\app\build\generated\res\resValues\androidTest\debug
+com.example.bankingapp.test.app-updated_navigation_xml-1 C:\DDrive\GuruBank99\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.bankingapp.test.app-mergeDebugAndroidTestResources-2 C:\DDrive\GuruBank99\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.bankingapp.test.app-mergeDebugAndroidTestResources-3 C:\DDrive\GuruBank99\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.bankingapp.test.app-debugAndroidTest-4 C:\DDrive\GuruBank99\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.bankingapp.test.app-uiautomator-2.3.0-5 C:\Users\XPS\.gradle\caches\8.13\transforms\187052d6424883f77d9965b0b6dfd947\transformed\uiautomator-2.3.0\res
+com.example.bankingapp.test.app-core-1.6.1-6 C:\Users\XPS\.gradle\caches\8.13\transforms\47cbb260c08ea84a4fc32c39d648fae0\transformed\core-1.6.1\res

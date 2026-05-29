@@ -8,6 +8,8 @@ import java.util.concurrent.atomic.AtomicLong;
  * The seeded mode is used by tests; the no-arg constructor uses a
  * sequential counter so generated numbers are easy to read in logs.
  */
+
+
 public class AccountNumberGenerator {
 
     private final AtomicLong sequence = new AtomicLong(10L);

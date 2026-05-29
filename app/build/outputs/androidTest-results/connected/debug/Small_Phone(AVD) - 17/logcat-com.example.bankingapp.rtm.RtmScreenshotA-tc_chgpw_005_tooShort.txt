@@ -1,0 +1,127 @@
+05-29 10:06:02.408  8132  8152 I TestRunner: started: tc_chgpw_005_tooShort(com.example.bankingapp.rtm.RtmScreenshotA)
+05-29 10:06:02.424  3897  3897 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1285355130
+05-29 10:06:02.440   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:02.440   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:02.445  8132  8152 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-29 10:06:02.519   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:02.520  2947  2947 D RecentsView: onTaskRemoved: 103, not handling task stack changes
+05-29 10:06:02.520  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:02.520   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:02.537  2947  2947 D RecentsView: onTaskRemoved: 103, not handling task stack changes
+05-29 10:06:02.620   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:02.620   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:02.642   681  1126 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@b3a0a038 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-29 10:06:02.675   530   556 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for binder (0x7bd968c2fb60) with descriptor: '(not cached)'
+05-29 10:06:02.685  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused|state_user_active] -[]
+05-29 10:06:02.688   940  1001 W DisconnectHandler: No disconnect change found in the transition, not handling request.
+05-29 10:06:02.701  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused] -[state_user_active]
+05-29 10:06:02.703  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_window_focused] -[state_resumed|state_deferred_resumed]
+05-29 10:06:02.704  2947  2947 W SplitSelectStateCtor: Missing session instanceIds
+05-29 10:06:02.704  2947  2947 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+05-29 10:06:02.753   473  5372 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 3700288
+05-29 10:06:02.754   473  5372 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: joining consumeThread
+05-29 10:06:02.754   473  8212 D android.hardware.audio@7.1-impl.ranchu: consumeThread: exiting
+05-29 10:06:02.756   473  5372 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: stopping PCM stream
+05-29 10:06:02.774  2947  2947 D RecentsView: onTaskDisplayChanged: 104, new displayId = 0
+05-29 10:06:02.775  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:02.776  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:02.785   681  1126 W InputChannel-JNI: Channel already disposed.
+05-29 10:06:02.804  2947  2947 D BaseActivity: Launcher flags updated: [state_started] -[state_window_focused]
+05-29 10:06:02.821  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@4311349 in: PRE_ON_CREATE
+05-29 10:06:02.821  8132  8132 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-29 10:06:02.860   940  1031 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@c131884
+05-29 10:06:02.872   940  1031 I Surface : Creating surface for consumer unnamed-940-66 with slotExpansion=1 for 64 slots
+05-29 10:06:02.875   940  1031 I Surface : Creating surface for consumer VRI[bankingapp]#66(BLAST Consumer)66 with slotExpansion=1 for 64 slots
+05-29 10:06:02.883  2947  2990 D PreloadThumbnailUseCase: Preloading thumbnails for task ids: [[id=29 windowingMode=0 user=0 lastActiveTime=47162] null, [id=39 windowingMode=0 user=0 lastActiveTime=47163] null, [id=104 windowingMode=1 user=0 lastActiveTime=1979246] null]
+05-29 10:06:02.919  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:02.990  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:02.997  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@4311349 in: CREATED
+05-29 10:06:02.997  8132  8132 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@4311349
+05-29 10:06:03.017  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@4311349 in: STARTED
+05-29 10:06:03.018  8132  8132 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@4311349
+05-29 10:06:03.025  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@4311349 in: RESUMED
+05-29 10:06:03.025  8132  8132 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@4311349
+05-29 10:06:03.051   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.051   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.056   681  1126 W InputChannel-JNI: Channel already disposed.
+05-29 10:06:03.088  8132  8132 D VRI[ChangePasswordActivity]: WindowInsets changed: 720x1280 statusBars:[0,48,0,0] navigationBars:[0,0,0,48] mandatorySystemGestures:[0,48,0,64]
+05-29 10:06:03.089  8132  8132 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@ac3ef3c
+05-29 10:06:03.135  8132  8132 I Surface : Creating surface for consumer unnamed-8132-4 with slotExpansion=1 for 64 slots
+05-29 10:06:03.141  8132  8132 I Surface : Creating surface for consumer VRI[ChangePasswordActivity]#4(BLAST Consumer)4 with slotExpansion=1 for 64 slots
+05-29 10:06:03.160   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.160   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.253   681   704 I ActivityTaskManager: Displayed com.example.bankingapp/.ui.profile.ChangePasswordActivity for user 0: +675ms
+05-29 10:06:03.271   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.271   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.330   940  1223 D WallpaperService: onVisibilityChanged(false): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@c6445ba
+05-29 10:06:03.355  2947  2947 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-29 10:06:03.359  2947  2947 D SmartspaceInteractor: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+05-29 10:06:03.370   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.371   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.379   681   801 W InputChannel-JNI: Channel already disposed.
+05-29 10:06:03.403  5376  5376 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2159
+05-29 10:06:03.433  5376  5376 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+05-29 10:06:03.436  5376  5376 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [nhm->kxt, nhm->kxt, nhm->mgr, nhm->kxt, nhm->mrv, nhm->nge, nhm->kxt, nhm->gqd, nhm->kxt, nhm->kxt, nhm->pnx, nhm->ngn, nhm->kux, nhm->kxt, nhm->kxt, nhm->kxt, nhm->gtb, nhm->lak, nhm->kxt, nhm->kxt, nhm->kxt, nhm->hst, nhm->kxt, nhm->kxt, nhm->ilb, nhm->oyt] takes 30ms
+05-29 10:06:03.443  5376  5376 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1434 onStartInput(EditorInfo{EditorInfo{packageName=com.example.bankingapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+05-29 10:06:03.446  5376  5376 I AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():312 Update input view padding, isNavbarOverInputWindow=true, bottom inset=96
+05-29 10:06:03.451  5376  5376 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+05-29 10:06:03.485   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.485   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.540  2947  2947 D BaseActivity: Launcher flags updated: [] -[state_started]
+05-29 10:06:03.541  2947  2947 D BaseDepthController: setSurface:
+05-29 10:06:03.541  2947  2947 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-29 10:06:03.541  2947  2947 D BaseDepthController: 	mBaseSurface: null
+05-29 10:06:03.541  2947  2947 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-29 10:06:03.562  2947  2947 D LauncherStateManager: StateManager.goToState: fromState: Normal, toState: Normal, partial trace:
+05-29 10:06:03.562  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:26)
+05-29 10:06:03.562  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:35)
+05-29 10:06:03.562  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:31)
+05-29 10:06:03.563  2947  2947 D LauncherStateManager: StateManager.onRepeatStateSetAborted: state: Normal
+05-29 10:06:03.576  2947  2947 D KeyboardStateManager: hideKeyboard
+05-29 10:06:03.576  2947  2947 D KeyboardStateManager: isImeShown: false
+05-29 10:06:03.576  2947  2947 D StatsLog: LAUNCHER_ONSTOP
+05-29 10:06:03.577  2947  2947 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+05-29 10:06:03.606   940  1031 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+05-29 10:06:03.617   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.617   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.717   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.717   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.819   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:03.835  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etOldPassword\E']].
+05-29 10:06:03.835  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etOldPassword\E'].
+05-29 10:06:03.929   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:04.031   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:04.160   681   833 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+05-29 10:06:04.194  8132  8152 D UiObject2: Setting text to 'Password1!'.
+05-29 10:06:04.257  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etNewPassword\E']].
+05-29 10:06:04.257  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etNewPassword\E'].
+05-29 10:06:04.268  8132  8132 I AssistStructure: Flattened final assist data: 2704 bytes, containing 1 windows, 9 views
+05-29 10:06:04.280   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:04.763  8132  8152 D UiObject2: Setting text to 'Ab1!abc'.
+05-29 10:06:04.774  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etConfirmPassword\E']].
+05-29 10:06:04.774  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etConfirmPassword\E'].
+05-29 10:06:04.795   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:05.277  8132  8152 D UiObject2: Setting text to 'Ab1!abc'.
+05-29 10:06:05.285  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/btnSubmit\E']].
+05-29 10:06:05.285  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/btnSubmit\E'].
+05-29 10:06:05.312   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:05.787  8132  8152 D UiObject2: Clicking on (360, 535).
+05-29 10:06:05.812   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:05.890  8132  8152 W GestureController: Gestures took longer than expected (99ms >> 16ms), device might be in a busy state.
+05-29 10:06:05.914   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:05.940   681  1530 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+05-29 10:06:05.976   526   612 D AudioFlinger: mixer(0x7a3555517790) throttle end: throttle time(39)
+05-29 10:06:05.985   681  1662 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+05-29 10:06:06.019   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.120   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.136   526   587 I APM_AudioPolicyManager: getNewOutputDevices io 13 recent device override {AUDIO_DEVICE_OUT_SPEAKER, @:}
+05-29 10:06:06.232   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.334   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.436   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.545   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.651   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.765   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.805   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.806   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.806   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:06.873  8132  8152 I TestRunner: finished: tc_chgpw_005_tooShort(com.example.bankingapp.rtm.RtmScreenshotA)

@@ -1,0 +1,1085 @@
+# proto-message: google.testing.platform.proto.api.core.TestSuiteResult
+# 2026-05-29T03:08:20.715518400Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 19
+  device {
+    id: "emulator-5554"
+    friendly_name: "primary"
+  }
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_001_oldEmpty"
+    start_time {
+      seconds: 1780023966
+      nanos: 674000000
+    }
+    end_time {
+      seconds: 1780023979
+      nanos: 5000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_001_oldEmpty.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_002_newEmpty"
+    start_time {
+      seconds: 1780023981
+      nanos: 344000000
+    }
+    end_time {
+      seconds: 1780023988
+      nanos: 697000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_002_newEmpty.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_003_noDigit"
+    start_time {
+      seconds: 1780023990
+      nanos: 599000000
+    }
+    end_time {
+      seconds: 1780023995
+      nanos: 941000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_003_noDigit.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_004_noSpecial"
+    start_time {
+      seconds: 1780023997
+      nanos: 716000000
+    }
+    end_time {
+      seconds: 1780024002
+      nanos: 567000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_004_noSpecial.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_005_tooShort"
+    start_time {
+      seconds: 1780024004
+      nanos: 411000000
+    }
+    end_time {
+      seconds: 1780024008
+      nanos: 890000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_005_tooShort.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_007_confirmEmpty"
+    start_time {
+      seconds: 1780024010
+      nanos: 404000000
+    }
+    end_time {
+      seconds: 1780024014
+      nanos: 858000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_007_confirmEmpty.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_008_mismatch"
+    start_time {
+      seconds: 1780024016
+      nanos: 517000000
+    }
+    end_time {
+      seconds: 1780024021
+      nanos: 287000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_008_mismatch.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_010_wrongOld"
+    start_time {
+      seconds: 1780024022
+      nanos: 853000000
+    }
+    end_time {
+      seconds: 1780024028
+      nanos: 994000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_010_wrongOld.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_chgpw_011_success"
+    start_time {
+      seconds: 1780024030
+      nanos: 359000000
+    }
+    end_time {
+      seconds: 1780024037
+      nanos: 196000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_chgpw_011_success.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_001_emptyUsername"
+    start_time {
+      seconds: 1780024038
+      nanos: 614000000
+    }
+    end_time {
+      seconds: 1780024041
+      nanos: 647000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_001_emptyUsername.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_002_emptyPassword"
+    start_time {
+      seconds: 1780024043
+      nanos: 467000000
+    }
+    end_time {
+      seconds: 1780024046
+      nanos: 962000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_002_emptyPassword.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_003_bothEmpty"
+    start_time {
+      seconds: 1780024048
+      nanos: 371000000
+    }
+    end_time {
+      seconds: 1780024051
+      nanos: 38000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_003_bothEmpty.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_004_success"
+    start_time {
+      seconds: 1780024052
+      nanos: 554000000
+    }
+    end_time {
+      seconds: 1780024057
+      nanos: 907000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_004_success.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_005_wrong1"
+    start_time {
+      seconds: 1780024059
+      nanos: 242000000
+    }
+    end_time {
+      seconds: 1780024064
+      nanos: 278000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_005_wrong1.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_006_wrong2"
+    start_time {
+      seconds: 1780024065
+      nanos: 537000000
+    }
+    end_time {
+      seconds: 1780024070
+      nanos: 579000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_006_wrong2.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_007_lockout"
+    start_time {
+      seconds: 1780024071
+      nanos: 962000000
+    }
+    end_time {
+      seconds: 1780024077
+      nanos: 310000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_007_lockout.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_008_lockedAccount"
+    start_time {
+      seconds: 1780024078
+      nanos: 545000000
+    }
+    end_time {
+      seconds: 1780024083
+      nanos: 427000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_008_lockedAccount.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_login_010_unknownUser"
+    start_time {
+      seconds: 1780024084
+      nanos: 637000000
+    }
+    end_time {
+      seconds: 1780024089
+      nanos: 492000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_login_010_unknownUser.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "RtmScreenshotA"
+    test_package: "com.example.bankingapp.rtm"
+    test_method: "tc_logout_001"
+    start_time {
+      seconds: 1780024090
+      nanos: 725000000
+    }
+    end_time {
+      seconds: 1780024095
+      nanos: 942000000
+    }
+    device {
+      id: "emulator-5554"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\logcat-com.example.bankingapp.rtm.RtmScreenshotA-tc_logout_001.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Small_Phone(AVD) - 17\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

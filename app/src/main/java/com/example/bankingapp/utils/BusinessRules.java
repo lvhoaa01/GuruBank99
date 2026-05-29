@@ -217,6 +217,8 @@ public final class BusinessRules {
     /**
      * Cyclomatic complexity: 4 branches.
      */
+
+    
     public static OtpResult validateOtp(OtpChallenge challenge, String input, long nowMillis) {
         if (challenge == null) {
             return OtpResult.WRONG_CODE;
@@ -241,6 +243,7 @@ public final class BusinessRules {
      * Branch isolation — F8, F17, F19, F25, F29, F32, F34, F37, F47
      * "Teller KHÔNG thao tác ngoài chi nhánh mình quản lý" (SRS 3.13)
      * ============================================================ */
+    // Có nghĩa
     public enum BranchAccessResult {
         ALLOWED,
         NOT_SAME_BRANCH,

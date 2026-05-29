@@ -5,6 +5,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Issues Customer IDs starting at 10001 (SRS 3.4).
  */
+
+
 public class CustomerIdGenerator {
 
     private final AtomicInteger next;

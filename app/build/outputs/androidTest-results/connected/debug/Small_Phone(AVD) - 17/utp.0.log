@@ -1,0 +1,70 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.example.bankingapp"
+    test_package: "com.example.bankingapp.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.example.bankingapp/additional_test_output"
+    }
+    args_map {
+      key: "class"
+      value: "com.example.bankingapp.rtm.RtmScreenshotA"
+    }
+    args_map {
+      key: "coverage"
+      value: "true"
+    }
+    args_map {
+      key: "coverageFile"
+      value: "/data/data/com.example.bankingapp/coverage.ec"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: Configuring AndroidTestApkInstallerPlugin: apks_to_install {
+  apk_paths: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\apk\\debug\\app-debug.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+apks_to_install {
+  apk_paths: "C:\\DDrive\\GuruBank99\\app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+instrumentation_target_package_id: "com.example.bankingapp"
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [C:\DDrive\GuruBank99\app\build\outputs\apk\debug\app-debug.apk] on device emulator-5554.
+INFO: Installing [C:\DDrive\GuruBank99\app\build\outputs\apk\androidTest\debug\app-debug-androidTest.apk] on device emulator-5554.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+INFO: Copying files from device to host: /sdcard/Android/media/com.example.bankingapp/additional_test_output to C:\DDrive\GuruBank99\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\Small_Phone(AVD) - 17
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.example.bankingapp for device emulator-5554.
+INFO: Uninstalling com.example.bankingapp.test for device emulator-5554.
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_001_oldEmpty: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_002_newEmpty: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_003_noDigit: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_004_noSpecial: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_005_tooShort: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_007_confirmEmpty: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_008_mismatch: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_010_wrongOld: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_chgpw_011_success: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_001_emptyUsername: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_002_emptyPassword: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_003_bothEmpty: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_004_success: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_005_wrong1: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_006_wrong2: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_007_lockout: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_008_lockedAccount: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_login_010_unknownUser: PASSED
+INFO: Execute com.example.bankingapp.rtm.RtmScreenshotA.tc_logout_001: PASSED

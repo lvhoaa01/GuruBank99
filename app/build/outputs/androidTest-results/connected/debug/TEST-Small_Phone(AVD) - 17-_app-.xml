@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.bankingapp.rtm.RtmScreenshotA" tests="19" failures="0" errors="0" skipped="0" time="133.786" timestamp="2026-05-29T03:08:20" hostname="localhost">
+  <properties>
+    <property name="device" value="Small_Phone(AVD) - 17" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="tc_chgpw_001_oldEmpty" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="12.184" />
+  <testcase name="tc_chgpw_002_newEmpty" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="7.346" />
+  <testcase name="tc_chgpw_003_noDigit" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="5.341" />
+  <testcase name="tc_chgpw_004_noSpecial" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="4.848" />
+  <testcase name="tc_chgpw_005_tooShort" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="4.474" />
+  <testcase name="tc_chgpw_007_confirmEmpty" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="4.449" />
+  <testcase name="tc_chgpw_008_mismatch" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="4.763" />
+  <testcase name="tc_chgpw_010_wrongOld" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="6.135" />
+  <testcase name="tc_chgpw_011_success" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="6.84" />
+  <testcase name="tc_login_001_emptyUsername" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="3.032" />
+  <testcase name="tc_login_002_emptyPassword" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="3.493" />
+  <testcase name="tc_login_003_bothEmpty" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="2.666" />
+  <testcase name="tc_login_004_success" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="5.35" />
+  <testcase name="tc_login_005_wrong1" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="5.031" />
+  <testcase name="tc_login_006_wrong2" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="5.039" />
+  <testcase name="tc_login_007_lockout" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="5.34" />
+  <testcase name="tc_login_008_lockedAccount" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="4.878" />
+  <testcase name="tc_login_010_unknownUser" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="4.852" />
+  <testcase name="tc_logout_001" classname="com.example.bankingapp.rtm.RtmScreenshotA" time="5.217" />
+</testsuite>

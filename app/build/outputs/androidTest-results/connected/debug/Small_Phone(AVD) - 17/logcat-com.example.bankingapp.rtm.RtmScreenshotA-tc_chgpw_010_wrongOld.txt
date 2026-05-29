@@ -1,0 +1,197 @@
+05-29 10:06:20.830  8132  8152 I TestRunner: started: tc_chgpw_010_wrongOld(com.example.bankingapp.rtm.RtmScreenshotA)
+05-29 10:06:20.838  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000d/dl-TfliteDynamiteDynamite.integ_252130102100800.apk has no usable artifacts
+05-29 10:06:20.845  8132  8132 D ViewRootImpl: Skipping stats log for color mode
+05-29 10:06:20.857   681   913 I Surface : Creating surface for consumer unnamed-681-66 with slotExpansion=1 for 64 slots
+05-29 10:06:20.864  8132  8152 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-29 10:06:20.865   681   913 I Surface : Creating surface for consumer ImageReader-576x1024f1m1-681-65 with slotExpansion=1 for 64 slots
+05-29 10:06:20.871   681   913 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+05-29 10:06:20.898   681   913 E ConsumerBase: [ImageReader-576x1024f1m1-681-65] abandonLocked: ConsumerBase is abandoned!
+05-29 10:06:20.905  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitOcrCommon.optional_261136100800.apk has no usable artifacts
+05-29 10:06:20.917   473  8232 D android.hardware.audio@7.1-impl.ranchu: 544 frames of silence written
+05-29 10:06:20.935   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:20.935   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:20.946  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000011/dl-Appsearch.optional_261833100800.apk has no usable artifacts
+05-29 10:06:20.952   473  8232 D android.hardware.audio@7.1-impl.ranchu: 544 frames of silence written
+05-29 10:06:20.953  3897  3897 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1843928596
+05-29 10:06:20.977  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000009/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+05-29 10:06:21.029  2004  2016 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/92659AEB0EFADECE4CBB22D1DF07B00702EAAC36/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:06:21.031   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.031   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.054  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000012/dl-MlkitOcrCommon.optional_261833100800.apk has no usable artifacts
+05-29 10:06:21.055  2947  2947 D RecentsView: onTaskRemoved: 106, not handling task stack changes
+05-29 10:06:21.073  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:21.083  2004  2016 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/BF4FB787570FCDA4B6C94221003046B6FDF77C85/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:06:21.087  2004  2016 I artd    : GetBestInfo: /data/user/0/com.google.android.gms/app_dg_cache/BBB8ADBA11F43674FC873CF50B06D4CFE87E958C/the.apk has no usable artifacts
+05-29 10:06:21.095  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000010/dl-IdentityCredentialsPlatform.optional_261833100800.apk has no usable artifacts
+05-29 10:06:21.104  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+05-29 10:06:21.108  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-PlayCloudSearch.optional_261833100000.apk has no usable artifacts
+05-29 10:06:21.134   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.134   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.163   681   924 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@b3a0a038 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-29 10:06:21.188   681  1126 W libbinder.Binder: Binder transaction to android.content.pm.IPackageManager, function: UNKNOWN_FUNCTION_NAME, code: 1598311760, took 2115ms. Data bytes: 80 Reply bytes: 4 Flags: 16
+05-29 10:06:21.203   530   739 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for binder (0x7bd968c2f530) with descriptor: '(not cached)'
+05-29 10:06:21.229  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused|state_user_active] -[]
+05-29 10:06:21.231   940  1001 W DisconnectHandler: No disconnect change found in the transition, not handling request.
+05-29 10:06:21.251  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused] -[state_user_active]
+05-29 10:06:21.253  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_window_focused] -[state_resumed|state_deferred_resumed]
+05-29 10:06:21.253  2947  2947 W SplitSelectStateCtor: Missing session instanceIds
+05-29 10:06:21.253  2947  2947 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+05-29 10:06:21.269   681   697 W InputChannel-JNI: Channel already disposed.
+05-29 10:06:21.297   473  5372 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 4139840
+05-29 10:06:21.299   473  5372 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: joining consumeThread
+05-29 10:06:21.300   473  8232 D android.hardware.audio@7.1-impl.ranchu: consumeThread: exiting
+05-29 10:06:21.310   940  1031 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@a8fcd21
+05-29 10:06:21.311   473  5372 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: stopping PCM stream
+05-29 10:06:21.338  2947  2947 D RecentsView: onTaskRemoved: 106, not handling task stack changes
+05-29 10:06:21.343  2947  2947 D RecentsView: onTaskDisplayChanged: 107, new displayId = 0
+05-29 10:06:21.343  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:21.344  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:21.359   940  1031 I Surface : Creating surface for consumer unnamed-940-69 with slotExpansion=1 for 64 slots
+05-29 10:06:21.363   940  1031 I Surface : Creating surface for consumer VRI[bankingapp]#69(BLAST Consumer)69 with slotExpansion=1 for 64 slots
+05-29 10:06:21.414  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@d4d4173 in: PRE_ON_CREATE
+05-29 10:06:21.414  8132  8132 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-29 10:06:21.441  2947  2947 D BaseActivity: Launcher flags updated: [state_started] -[state_window_focused]
+05-29 10:06:21.504  2947  2990 D PreloadThumbnailUseCase: Preloading thumbnails for task ids: [[id=29 windowingMode=0 user=0 lastActiveTime=47162] null, [id=39 windowingMode=0 user=0 lastActiveTime=47163] null, [id=107 windowingMode=1 user=0 lastActiveTime=1997809] null]
+05-29 10:06:21.517  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:21.550  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@d4d4173 in: CREATED
+05-29 10:06:21.550  8132  8132 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@d4d4173
+05-29 10:06:21.552   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.553   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.567  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@d4d4173 in: STARTED
+05-29 10:06:21.567  8132  8132 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@d4d4173
+05-29 10:06:21.572  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@d4d4173 in: RESUMED
+05-29 10:06:21.572  8132  8132 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@d4d4173
+05-29 10:06:21.580  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:06:21.593   681  1126 W InputChannel-JNI: Channel already disposed.
+05-29 10:06:21.610  8132  8132 D VRI[ChangePasswordActivity]: WindowInsets changed: 720x1280 statusBars:[0,48,0,0] navigationBars:[0,0,0,48] mandatorySystemGestures:[0,48,0,64]
+05-29 10:06:21.613  8132  8132 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@3d56cee
+05-29 10:06:21.636  8132  8132 I Surface : Creating surface for consumer unnamed-8132-7 with slotExpansion=1 for 64 slots
+05-29 10:06:21.638  8132  8132 I Surface : Creating surface for consumer VRI[ChangePasswordActivity]#7(BLAST Consumer)7 with slotExpansion=1 for 64 slots
+05-29 10:06:21.667   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.667   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.769   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.770   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.770   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.773   681   704 I ActivityTaskManager: Displayed com.example.bankingapp/.ui.profile.ChangePasswordActivity for user 0: +707ms
+05-29 10:06:21.818   681   801 W InputChannel-JNI: Channel already disposed.
+05-29 10:06:21.821  5376  5376 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2159
+05-29 10:06:21.825  5376  5376 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+05-29 10:06:21.835  5376  5376 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1434 onStartInput(EditorInfo{EditorInfo{packageName=com.example.bankingapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+05-29 10:06:21.836  5376  5376 I AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():312 Update input view padding, isNavbarOverInputWindow=true, bottom inset=96
+05-29 10:06:21.854  5376  5376 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+05-29 10:06:21.869   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.869   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.872  5376  5376 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [nhm->kxt, nhm->kxt, nhm->mgr, nhm->kxt, nhm->mrv, nhm->nge, nhm->kxt, nhm->gqd, nhm->kxt, nhm->kxt, nhm->pnx, nhm->ngn, nhm->kux, nhm->kxt, nhm->kxt, nhm->kxt, nhm->gtb, nhm->lak, nhm->kxt, nhm->kxt, nhm->kxt, nhm->hst, nhm->kxt, nhm->kxt, nhm->ilb, nhm->oyt] takes 35ms
+05-29 10:06:21.904   940  1223 D WallpaperService: onVisibilityChanged(false): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@c6445ba
+05-29 10:06:21.908  2947  2947 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-29 10:06:21.910  2947  2947 D SmartspaceInteractor: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+05-29 10:06:21.972   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.972   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:21.983  2947  2947 D BaseActivity: Launcher flags updated: [] -[state_started]
+05-29 10:06:21.985  2947  2947 D BaseDepthController: setSurface:
+05-29 10:06:21.985  2947  2947 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-29 10:06:21.985  2947  2947 D BaseDepthController: 	mBaseSurface: null
+05-29 10:06:21.985  2947  2947 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-29 10:06:22.011  2947  2947 D LauncherStateManager: StateManager.goToState: fromState: Normal, toState: Normal, partial trace:
+05-29 10:06:22.011  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:26)
+05-29 10:06:22.011  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:35)
+05-29 10:06:22.011  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:31)
+05-29 10:06:22.011  2947  2947 D LauncherStateManager: StateManager.onRepeatStateSetAborted: state: Normal
+05-29 10:06:22.011  2947  2947 D KeyboardStateManager: hideKeyboard
+05-29 10:06:22.012  2947  2947 D KeyboardStateManager: isImeShown: false
+05-29 10:06:22.013  2947  2947 D StatsLog: LAUNCHER_ONSTOP
+05-29 10:06:22.025  2947  2947 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+05-29 10:06:22.081   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.081   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.103  2947  2953 W System  : A resource failed to call release.
+05-29 10:06:22.103  2947  2953 W System  : A resource failed to call release.
+05-29 10:06:22.103  2947  2953 W System  : A resource failed to call release.
+05-29 10:06:22.137   940  1031 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+05-29 10:06:22.182   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.182   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.284   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.284   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.325  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etOldPassword\E']].
+05-29 10:06:22.325  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etOldPassword\E'].
+05-29 10:06:22.369   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.369   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.369   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.369   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.370   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.371   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.371   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.371   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.371   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.371   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.371   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.372   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.373   940   947 W System  : A resource failed to call release.
+05-29 10:06:22.386   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.500   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.603   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.743  8132  8152 D UiObject2: Setting text to 'WrongOld9!'.
+05-29 10:06:22.789  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etNewPassword\E']].
+05-29 10:06:22.789  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etNewPassword\E'].
+05-29 10:06:22.798  8132  8132 I AssistStructure: Flattened final assist data: 2704 bytes, containing 1 windows, 9 views
+05-29 10:06:22.814   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:22.845   681   833 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+05-29 10:06:23.228   681   837 E Nl80211Native: getChannelsMhzForBand: Wiphy index not recorded for band 8
+05-29 10:06:23.228   681   837 E Nl80211Native: getChannelsMhzForBand: Wiphy index not recorded for band 16
+05-29 10:06:23.236   681   837 D Nl80211Native: Ignoring unsupported scan type 2
+05-29 10:06:23.237   681   837 I Nl80211Proxy: Sending Nl80211 message: GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{56}, nlmsg_type{30()}, nlmsg_flags{5(NLM_F_REQUEST|NLM_F_ACK)}, nlmsg_seq{67}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{33}, version{1}, reserved{0} }}, attributes{[StructNlAttr{ nla_len{8}, nla_type{-32723}, nla_value{04000000}, }, StructNlAttr{ nla_len{8}, nla_type{3}, nla_value{10000000}, }, StructNlAttr{ nla_len{12}, nla_type{-32724}, nla_value{080000008F090000}, }, StructNlAttr{ nla_len{8}, nla_type{158}, nla_value{00000000}, }]} }
+05-29 10:06:23.249   681   837 I Nl80211Proxy: Received NLMSG_ERROR with error 0 for message GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{56}, nlmsg_type{30()}, nlmsg_flags{5(NLM_F_REQUEST|NLM_F_ACK)}, nlmsg_seq{67}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{33}, version{1}, reserved{0} }}, attributes{[StructNlAttr{ nla_len{8}, nla_type{-32723}, nla_value{04000000}, }, StructNlAttr{ nla_len{8}, nla_type{3}, nla_value{10000000}, }, StructNlAttr{ nla_len{12}, nla_type{-32724}, nla_value{080000008F090000}, }, StructNlAttr{ nla_len{8}, nla_type{158}, nla_value{00000000}, }]} }
+05-29 10:06:23.290  8132  8152 D UiObject2: Setting text to 'Aa1!aaaa'.
+05-29 10:06:23.293   681   833 D WifiNative: Scan result ready event
+05-29 10:06:23.299   681   837 I Nl80211Proxy: Sending Nl80211 message: GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{20}, nlmsg_type{30()}, nlmsg_flags{769(NLM_F_REQUEST|NLM_F_DUMP)}, nlmsg_seq{68}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{5}, version{1}, reserved{0} }}, attributes{[]} }
+05-29 10:06:23.299   681   837 I Nl80211Proxy: Received NLMSG_DONE for message GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{20}, nlmsg_type{30()}, nlmsg_flags{769(NLM_F_REQUEST|NLM_F_DUMP)}, nlmsg_seq{68}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{5}, version{1}, reserved{0} }}, attributes{[]} }
+05-29 10:06:23.303   681   837 W Nl80211Utils: Malformed NEW_INTERFACE response: missing attributes
+05-29 10:06:23.303   681   837 I Nl80211Proxy: Sending Nl80211 message: GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{28}, nlmsg_type{30()}, nlmsg_flags{769(NLM_F_REQUEST|NLM_F_DUMP)}, nlmsg_seq{69}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{32}, version{1}, reserved{0} }}, attributes{[StructNlAttr{ nla_len{8}, nla_type{3}, nla_value{10000000}, }]} }
+05-29 10:06:23.303   681   837 I Nl80211Proxy: Received NLMSG_DONE for message GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{28}, nlmsg_type{30()}, nlmsg_flags{769(NLM_F_REQUEST|NLM_F_DUMP)}, nlmsg_seq{69}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{32}, version{1}, reserved{0} }}, attributes{[StructNlAttr{ nla_len{8}, nla_type{3}, nla_value{10000000}, }]} }
+05-29 10:06:23.305  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etConfirmPassword\E']].
+05-29 10:06:23.307  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etConfirmPassword\E'].
+05-29 10:06:23.323  2929  3045 I WifiScanner: onFullResults
+05-29 10:06:23.329  2929  2938 I WifiScanner: onFullResults
+05-29 10:06:23.330   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:23.341   681   833 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+05-29 10:06:23.518  2929  2929 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+05-29 10:06:23.806  8132  8152 D UiObject2: Setting text to 'Aa1!aaaa'.
+05-29 10:06:23.812  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/btnSubmit\E']].
+05-29 10:06:23.812  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/btnSubmit\E'].
+05-29 10:06:23.846   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:24.313  8132  8152 D UiObject2: Clicking on (360, 535).
+05-29 10:06:24.345   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:24.406  8132  8152 W GestureController: Gestures took longer than expected (91ms >> 16ms), device might be in a busy state.
+05-29 10:06:24.447   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:24.504   681  2002 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+05-29 10:06:24.509   681  2002 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+05-29 10:06:24.546   526   612 D AudioFlinger: mixer(0x7a3555517790) throttle end: throttle time(30)
+05-29 10:06:24.547   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:24.646   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:24.705   526   587 I APM_AudioPolicyManager: getNewOutputDevices io 13 recent device override {AUDIO_DEVICE_OUT_SPEAKER, @:}
+05-29 10:06:24.749   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:24.849   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:24.949   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:25.052   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:25.152   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:25.264   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:25.365   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:25.719   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:25.854   681   833 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+05-29 10:06:25.892  1033  1189 D IpClient/wlan0: interfaceLinkStateChanged: ifindex 16 up
+05-29 10:06:25.904  1033  1189 D IpClient/wlan0: interfaceLinkStateChanged: ifindex 16 up
+05-29 10:06:26.108  2929  2938 I libbinder.IPCThreadState: oneway function results for code 1 on binder at 0x72ebd564ad90 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+05-29 10:06:26.926   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:26.926   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:26.926   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:26.995  8132  8152 I TestRunner: finished: tc_chgpw_010_wrongOld(com.example.bankingapp.rtm.RtmScreenshotA)

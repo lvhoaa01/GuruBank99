@@ -26,11 +26,11 @@ public class LoginViewModel extends ViewModel {
     public static final int LOCKOUT_THRESHOLD = 3;
     public static final long LOCKOUT_WINDOW_MILLIS = 15L * 60L * 1000L;
 
-    private final UserRepository users;
-    private final SessionManager sessionManager;
-    private final AppExecutors executors;
+    private final UserRepository users; // Dùng để truy cập dữ liệu người dùng trong quá trình đăng nhập
+    private final SessionManager sessionManager; // Dùng để quản lý phiên đăng nhập của người dùng
+    private final AppExecutors executors; // Dùng để thực thi các tác vụ không đồng bộ, như truy cập cơ sở dữ liệu, trên một luồng riêng biệt
 
-    private final MutableLiveData<UiState> state = new MutableLiveData<>(UiState.idle());
+    private final MutableLiveData<UiState> state = new MutableLiveData<>(UiState.idle()); 
 
     public LoginViewModel(UserRepository users, SessionManager sessionManager, AppExecutors executors) {
         this.users = users;
@@ -43,7 +43,7 @@ public class LoginViewModel extends ViewModel {
     }
 
     public void login(String username, String password) {
-        login(username, password, System.currentTimeMillis());
+        login(username, password, System.currentTimeMillis()); 
     }
 
     /** Visible-for-testing variant with deterministic clock. */
@@ -64,7 +64,7 @@ public class LoginViewModel extends ViewModel {
             User user = users.findByUsername(username);
             String submittedHash = PasswordHasher.hash(password);
             BusinessRules.LoginResult result = BusinessRules.validateLogin(user, submittedHash, nowMillis);
-
+            // BusinessRules được khởi tạo với một Clock giả định, nhưng giờ nó trả về LoginResult dựa trên logic nghiệp vụ, không cần biết thời gian thực là bao nhiêu. LoginViewModel chỉ cần truyền vào thời gian hiện tại để BusinessRules có thể tính toán lockout đúng cách. Điều này giúp tách biệt logic nghiệp vụ khỏi việc lấy thời gian thực tế, và cũng cho phép chúng ta kiểm thử logic lockout bằng cách giả lập thời gian trong các bài kiểm thử đơn vị.
             switch (result) {
                 case USER_NOT_FOUND:
                     state.postValue(UiState.error("USER_NOT_FOUND", "User not found"));

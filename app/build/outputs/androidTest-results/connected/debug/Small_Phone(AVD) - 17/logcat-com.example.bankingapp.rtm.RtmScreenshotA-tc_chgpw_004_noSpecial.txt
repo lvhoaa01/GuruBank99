@@ -1,0 +1,198 @@
+05-29 10:05:55.658  8132  8152 I TestRunner: started: tc_chgpw_004_noSpecial(com.example.bankingapp.rtm.RtmScreenshotA)
+05-29 10:05:55.723   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:55.724   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:55.736  2947  2947 D RecentsView: onTaskRemoved: 102, not handling task stack changes
+05-29 10:05:55.750   681   913 E ConsumerBase: [ImageReader-576x1024f1m1-681-61] abandonLocked: ConsumerBase is abandoned!
+05-29 10:05:55.767  2947  2947 D RecentsView: onTaskRemoved: 102, not handling task stack changes
+05-29 10:05:55.767  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:05:55.768  8132  8152 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-29 10:05:55.831   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:55.832   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:55.944   681   698 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@b3a0a038 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-29 10:05:56.005   530   739 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for binder (0x7bd968c1c6b0) with descriptor: '(not cached)'
+05-29 10:05:56.028  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused|state_user_active] -[]
+05-29 10:05:56.031   940  1001 W DisconnectHandler: No disconnect change found in the transition, not handling request.
+05-29 10:05:56.054  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused] -[state_user_active]
+05-29 10:05:56.055  2947  2947 D BaseActivity: Launcher flags updated: [state_started|state_window_focused] -[state_resumed|state_deferred_resumed]
+05-29 10:05:56.055  2947  2947 W SplitSelectStateCtor: Missing session instanceIds
+05-29 10:05:56.055  2947  2947 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+05-29 10:05:56.127  2947  2947 D RecentsView: onTaskDisplayChanged: 103, new displayId = 0
+05-29 10:05:56.147  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:05:56.155   473  5372 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 3551232
+05-29 10:05:56.155   473  5372 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: joining consumeThread
+05-29 10:05:56.156   473  8202 D android.hardware.audio@7.1-impl.ranchu: consumeThread: exiting
+05-29 10:05:56.156   473  5372 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: stopping PCM stream
+05-29 10:05:56.182  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:05:56.182   681  1202 W InputChannel-JNI: Channel already disposed.
+05-29 10:05:56.189  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@547822a in: PRE_ON_CREATE
+05-29 10:05:56.203  8132  8132 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-29 10:05:56.252   940  1031 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@f339901
+05-29 10:05:56.269  2947  2947 D BaseActivity: Launcher flags updated: [state_started] -[state_window_focused]
+05-29 10:05:56.272   940  1031 I Surface : Creating surface for consumer unnamed-940-65 with slotExpansion=1 for 64 slots
+05-29 10:05:56.274   940  1031 I Surface : Creating surface for consumer VRI[bankingapp]#65(BLAST Consumer)65 with slotExpansion=1 for 64 slots
+05-29 10:05:56.325  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:05:56.350  2947  2990 D PreloadThumbnailUseCase: Preloading thumbnails for task ids: [[id=29 windowingMode=0 user=0 lastActiveTime=47162] null, [id=39 windowingMode=0 user=0 lastActiveTime=47163] null, [id=103 windowingMode=1 user=0 lastActiveTime=1972610] null]
+05-29 10:05:56.405  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@547822a in: CREATED
+05-29 10:05:56.406  8132  8132 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@547822a
+05-29 10:05:56.452  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@547822a in: STARTED
+05-29 10:05:56.453  8132  8132 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@547822a
+05-29 10:05:56.466  8132  8132 D LifecycleMonitor: Lifecycle status change: com.example.bankingapp.ui.profile.ChangePasswordActivity@547822a in: RESUMED
+05-29 10:05:56.466  2947  2947 D RecentTasksList: invalidateLoadedTasks - previous requestLoadId: -1
+05-29 10:05:56.466  8132  8132 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.bankingapp.ui.profile.ChangePasswordActivity@547822a
+05-29 10:05:56.482   681   698 W InputChannel-JNI: Channel already disposed.
+05-29 10:05:56.503  8132  8132 D VRI[ChangePasswordActivity]: WindowInsets changed: 720x1280 statusBars:[0,48,0,0] navigationBars:[0,0,0,48] mandatorySystemGestures:[0,48,0,64]
+05-29 10:05:56.504  8132  8132 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@2fc2d51
+05-29 10:05:56.539  8132  8132 I Surface : Creating surface for consumer unnamed-8132-3 with slotExpansion=1 for 64 slots
+05-29 10:05:56.540  8132  8132 I Surface : Creating surface for consumer VRI[ChangePasswordActivity]#3(BLAST Consumer)3 with slotExpansion=1 for 64 slots
+05-29 10:05:56.556   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.556   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.654   681   704 I ActivityTaskManager: Displayed com.example.bankingapp/.ui.profile.ChangePasswordActivity for user 0: +800ms
+05-29 10:05:56.673   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.673   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.673   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.771   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.771   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.795   940  1223 D WallpaperService: onVisibilityChanged(false): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@c6445ba
+05-29 10:05:56.798  2947  2947 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-29 10:05:56.804  2947  2947 D SmartspaceInteractor: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+05-29 10:05:56.818   681   801 W InputChannel-JNI: Channel already disposed.
+05-29 10:05:56.845  5376  5376 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2159
+05-29 10:05:56.864  5376  5376 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+05-29 10:05:56.876  2947  2947 D BaseActivity: Launcher flags updated: [] -[state_started]
+05-29 10:05:56.876  2947  2947 D BaseDepthController: setSurface:
+05-29 10:05:56.876  2947  2947 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-29 10:05:56.876  2947  2947 D BaseDepthController: 	mBaseSurface: null
+05-29 10:05:56.876  2947  2947 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-29 10:05:56.887   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.887   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:56.889  5376  5376 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [nhm->kxt, nhm->kxt, nhm->mgr, nhm->kxt, nhm->mrv, nhm->nge, nhm->kxt, nhm->gqd, nhm->kxt, nhm->kxt, nhm->pnx, nhm->ngn, nhm->kux, nhm->kxt, nhm->kxt, nhm->kxt, nhm->gtb, nhm->lak, nhm->kxt, nhm->kxt, nhm->kxt, nhm->hst, nhm->kxt, nhm->kxt, nhm->ilb, nhm->oyt] takes 38ms
+05-29 10:05:56.909  2947  2947 D LauncherStateManager: StateManager.goToState: fromState: Normal, toState: Normal, partial trace:
+05-29 10:05:56.909  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:26)
+05-29 10:05:56.909  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:35)
+05-29 10:05:56.909  2947  2947 D LauncherStateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 4b96215a9d9b4c1494121442fbf9d6e89857c91e1d76ddcc689701971259418a:31)
+05-29 10:05:56.909  2947  2947 D LauncherStateManager: StateManager.onRepeatStateSetAborted: state: Normal
+05-29 10:05:56.921  2947  2947 D KeyboardStateManager: hideKeyboard
+05-29 10:05:56.921  2947  2947 D KeyboardStateManager: isImeShown: false
+05-29 10:05:56.921  2947  2947 D StatsLog: LAUNCHER_ONSTOP
+05-29 10:05:56.937  2947  2947 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+05-29 10:05:56.947  5376  5376 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1434 onStartInput(EditorInfo{EditorInfo{packageName=com.example.bankingapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+05-29 10:05:56.964  5376  5376 I AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():312 Update input view padding, isNavbarOverInputWindow=true, bottom inset=96
+05-29 10:05:56.978  5376  5376 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+05-29 10:05:57.012   940  1031 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+05-29 10:05:57.020   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:57.020   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:57.130   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:57.130   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:57.136  2947  2953 W System  : A resource failed to call release.
+05-29 10:05:57.136  2947  2953 W System  : A resource failed to call release.
+05-29 10:05:57.136  2947  2953 W System  : A resource failed to call release.
+05-29 10:05:57.229  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etOldPassword\E']].
+05-29 10:05:57.230  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etOldPassword\E'].
+05-29 10:05:57.232   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:57.332   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:57.435   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:57.617  8132  8152 D UiObject2: Setting text to 'Password1!'.
+05-29 10:05:57.679  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etNewPassword\E']].
+05-29 10:05:57.679  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etNewPassword\E'].
+05-29 10:05:57.689  8132  8132 I AssistStructure: Flattened final assist data: 2704 bytes, containing 1 windows, 9 views
+05-29 10:05:57.713   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:57.900   681   833 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+05-29 10:05:57.946   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.947   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.947   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.950   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.960   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.964   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.966   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.966   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.968   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:57.969   681   839 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+05-29 10:05:58.181  8132  8152 D UiObject2: Setting text to 'Abcdef12'.
+05-29 10:05:58.196  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/etConfirmPassword\E']].
+05-29 10:05:58.196  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/etConfirmPassword\E'].
+05-29 10:05:58.228   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:58.479  2929  2929 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+05-29 10:05:58.697  8132  8152 D UiObject2: Setting text to 'Abcdef12'.
+05-29 10:05:58.704  8132  8152 D UiDevice: Waiting 5000ms for SearchCondition[findObject=BySelector [RES='\Qcom.example.bankingapp:id/btnSubmit\E']].
+05-29 10:05:58.704  8132  8152 D UiDevice: Retrieving node with selector: BySelector [RES='\Qcom.example.bankingapp:id/btnSubmit\E'].
+05-29 10:05:58.728   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:58.970   539   539 I adbd    : adbd service requested 'shell,v2,raw:dumpsys package com.google.android.gms'
+05-29 10:05:59.218  8132  8152 D UiObject2: Clicking on (360, 535).
+05-29 10:05:59.253   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:59.341  8132  8152 W GestureController: Gestures took longer than expected (122ms >> 16ms), device might be in a busy state.
+05-29 10:05:59.354   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:59.441   681   693 I system_server: Background young concurrent mark compact GC freed 19MB AllocSpace bytes, 6(176KB) LOS objects, 34% free, 39MB/60MB, paused 7.462ms,48.482ms total 241.991ms
+05-29 10:05:59.466   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:59.570   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:59.601   681  1126 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+05-29 10:05:59.608   681  1126 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+05-29 10:05:59.685   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:59.689   526   612 D AudioFlinger: mixer(0x7a3555517790) throttle end: throttle time(33)
+05-29 10:05:59.800  2004  2016 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+05-29 10:05:59.802  1071  1207 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+05-29 10:05:59.803  1071  1207 D SatelliteController: getCarrierRoamingNtnConnectType: Checking connect type from PLMN config for subId: 1
+05-29 10:05:59.805  1071  1207 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+05-29 10:05:59.811   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:59.820  1071  1207 V SatelliteController: satelliteConfigParser is not ready
+05-29 10:05:59.823  1071  1207 D SatelliteController: isSatelliteAttachSupportedViaConfigupdater: return null (satelliteConfig is null)
+05-29 10:05:59.835  2004  2016 I artd    : GetBestInfo: dm (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/split_AdsDynamite_installtime.dm) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:05:59.850  2004  2016 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+05-29 10:05:59.856   526   587 I APM_AudioPolicyManager: getNewOutputDevices io 13 recent device override {AUDIO_DEVICE_OUT_SPEAKER, @:}
+05-29 10:05:59.865  2004  2016 I artd    : GetBestInfo: dm (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/split_DynamiteLoader_installtime.dm) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:05:59.881  2004  2016 I artd    : GetBestInfo: dm (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/split_DynamiteModulesA_installtime.dm) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:05:59.883  1071  1207 D SatelliteController: getSatellitePerPlmnConfiguration: invalid subId or not supported via carrier.
+05-29 10:05:59.883  1071  1207 D SatelliteController: getCarrierRoamingNtnConnectType: config: null
+05-29 10:05:59.883  1071  1207 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+05-29 10:05:59.883  1071  1207 V SatelliteController: satelliteConfigParser is not ready
+05-29 10:05:59.883  1071  1207 D SatelliteController: getCarrierRoamingNtnConnectTypeViaConfigUpdater: return null (satelliteConfig is null)
+05-29 10:05:59.884  1071  1207 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+05-29 10:05:59.884  1071  1207 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+05-29 10:05:59.885  1071  1207 V SatelliteController: satelliteConfigParser is not ready
+05-29 10:05:59.885  1071  1207 D SatelliteController: isSatelliteAttachSupportedViaConfigupdater: return null (satelliteConfig is null)
+05-29 10:05:59.892  1071  1207 D SatelliteController: getCarrierRoamingNtnConnectType: Checking connect type from PLMN config for subId: 1
+05-29 10:05:59.893  1071  1207 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+05-29 10:05:59.895  1071  1207 V SatelliteController: satelliteConfigParser is not ready
+05-29 10:05:59.895  1071  1207 D SatelliteController: isSatelliteAttachSupportedViaConfigupdater: return null (satelliteConfig is null)
+05-29 10:05:59.898  2004  2016 I artd    : GetBestInfo: dm (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/split_DynamiteModulesC_installtime.dm) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:05:59.899  1071  1207 D SatelliteController: getSatellitePerPlmnConfiguration: invalid subId or not supported via carrier.
+05-29 10:05:59.899  1071  1207 D SatelliteController: getCarrierRoamingNtnConnectType: config: null
+05-29 10:05:59.899  1071  1207 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+05-29 10:05:59.900  1071  1207 V SatelliteController: satelliteConfigParser is not ready
+05-29 10:05:59.900  1071  1207 D SatelliteController: getCarrierRoamingNtnConnectTypeViaConfigUpdater: return null (satelliteConfig is null)
+05-29 10:05:59.901  1071  1207 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+05-29 10:05:59.901  1071  1207 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+05-29 10:05:59.903   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:05:59.910  1071  1207 V SatelliteController: satelliteConfigParser is not ready
+05-29 10:05:59.921  2004  2016 I artd    : GetBestInfo: dm (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/split_GoogleCertificates_installtime.dm) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:05:59.927  1071  1207 D SatelliteController: isSatelliteAttachSupportedViaConfigupdater: return null (satelliteConfig is null)
+05-29 10:05:59.940  2004  2016 I artd    : GetBestInfo: dm (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/split_MapsDynamite_installtime.dm) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:05:59.959  2004  2016 I artd    : GetBestInfo: dm (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/split_MeasurementDynamite_installtime.dm) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:05:59.981  2004  5343 I artd    : GetBestInfo: dm (/data/app/~~EVv2KeY7-Shw2fptL7U5kw==/com.google.android.gms-1GdOfhvyCAg0sGI7WtrtBA==/split_all_locale_splits.dm) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:05:59.984  2004  5343 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+05-29 10:05:59.998  2004  5343 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/3C458487C11623D174A33292B914D98AB3A4651D/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:06:00.000  2004  5343 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+05-29 10:06:00.003  2004  5343 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+05-29 10:06:00.007   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:00.136   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:00.139  2004  5343 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-VisionOcr.optional_261136100000.apk has no usable artifacts
+05-29 10:06:00.159  2004  5343 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_261833100800.apk has no usable artifacts
+05-29 10:06:00.193  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000f/dl-VisionOcr.optional_261833100000.apk has no usable artifacts
+05-29 10:06:00.211  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000d/dl-TfliteDynamiteDynamite.integ_252130102100800.apk has no usable artifacts
+05-29 10:06:00.227  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitOcrCommon.optional_261136100800.apk has no usable artifacts
+05-29 10:06:00.236  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000011/dl-Appsearch.optional_261833100800.apk has no usable artifacts
+05-29 10:06:00.240   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:00.257  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000009/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+05-29 10:06:00.276  2004  5343 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/92659AEB0EFADECE4CBB22D1DF07B00702EAAC36/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:06:00.284  2004  2016 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000012/dl-MlkitOcrCommon.optional_261833100800.apk has no usable artifacts
+05-29 10:06:00.311   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:00.311   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:00.311   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:00.335  2004  5343 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/BF4FB787570FCDA4B6C94221003046B6FDF77C85/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+05-29 10:06:00.344   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:00.347  2004  5343 I artd    : GetBestInfo: /data/user/0/com.google.android.gms/app_dg_cache/BBB8ADBA11F43674FC873CF50B06D4CFE87E958C/the.apk has no usable artifacts
+05-29 10:06:00.358  2004  5343 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000010/dl-IdentityCredentialsPlatform.optional_261833100800.apk has no usable artifacts
+05-29 10:06:00.374  2004  5343 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+05-29 10:06:00.381  2004  5343 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-PlayCloudSearch.optional_261833100000.apk has no usable artifacts
+05-29 10:06:00.515   681   698 W libbinder.Binder: Binder transaction to android.content.pm.IPackageManager, function: UNKNOWN_FUNCTION_NAME, code: 1598311760, took 1474ms. Data bytes: 80 Reply bytes: 4 Flags: 16
+05-29 10:06:00.525   530   567 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+05-29 10:06:00.541  8132  8152 I TestRunner: finished: tc_chgpw_004_noSpecial(com.example.bankingapp.rtm.RtmScreenshotA)
